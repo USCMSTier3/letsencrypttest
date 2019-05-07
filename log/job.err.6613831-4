@@ -1,0 +1,5 @@
+[33mWARNING: Could not create mount point directory in container /var/singularity/mnt/final/mnt/hadoop: Operation not supported
+[0m[33mWARNING: Container does not have an exec helper script, calling '/srv/.osgvo-user-job-wrapper.sh' directly
+[0mcat: /etc/redhat-release: No such file or directory
+ls: cannot access '/cvmfs/cms.cern.ch/SITECONF/local': No such file or directory
+/srv/short.sh: line 19: singularity: command not found

@@ -1,0 +1,548 @@
+current cwd: /tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978
+Directory list
+Environment:
+{'VO_COMPASS_DEFAULT_SE': 'gridka-dcache.fzk.de', 'HOLD_GRACE_TIME': '0', 'GLIDEIN_Expose_Grid_Env': 'True', 'USE_PSS': 'True', 'GLITE_ENV_SET': 'TRUE', '_CONDOR_JOB_PIDS': '', 'LCG_GFAL_INFOSYS': 'bdii-fzk.gridka.de:2170', 'VO_OPS_SW_DIR': '/grid/fzk.de/mounts/nfs/software/ops/lcg2', 'OSG_MACHINE_GPUS': '0', 'VO_DTEAM_SW_DIR': '/grid/fzk.de/mounts/nfs/software/dteam/lcg2', 'GLIDEIN_ClusterId': '859668', 'CVMFS_oasis_opensciencegrid_org_TIMESTAMP': '1552609251', 'CONDOR_PROCD_ADDRESS_BASE': '/tmp/home/condor/dir_2784593/glide_8QWaJ6/log/procd_address', 'VO_CMS_DEFAULT_SE': 'cmssrm-kit.gridka.de', 'CMS_GLIDEIN_VERSION': '18', 'MYPROXY_TCP_PORT_RANGE': '20000,25000', 'CVMFS_singularity_opensciencegrid_org_REVISION': '61710', 'GRID_ENV_LOCATION': '/opt/glite/etc/profile.d', 'GLIDEIN_Schedd': 'schedd_glideins3@vocms0206.cern.ch', 'SLOTS_LAYOUT': 'partitionable', 'HISTSIZE': '1000', '_CONDOR_ANCESTOR_2793198': '2793210:1557171482:2488715420', 'MANPATH': '/opt/edg/share/man:/opt/glite/share/man:/opt/glite/yaim/man:/opt/globus/man:/opt/lcg/man:/opt/lcg/share/man::::::', 'OSG_WN_TMP': '/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978', 'JAVA_HOME': '/usr/java/latest', 'VO_CDF_DEFAULT_SE': 'gridka-dcache.fzk.de', 'VO_DGTEST_DEFAULT_SE': 'dgiref-dcache.fzk.de', 'JOB_ID': 'arc-4-kit.gridka.de_2314749.0_1557168200', 'BATCH_SYSTEM': 'HTCondor', 'PYTHONPATH': '/opt/lcg/lib64/python2.4/site-packages:/opt/lcg/lib64/python:/opt/glite/lib/python:/opt/glite/lib/python2.3/site-packages/amga', 'GLIDEIN_Tmp_Dir': '/tmp/home/condor/dir_2784593/glide_8QWaJ6/tmp', 'OSG_SINGULARITY_PATH': '/usr/bin/singularity', 'GLOBUS_GSSAPI_MIN_TLS_PROTOCOL': 'TLS1_VERSION', 'GLIDEIN_Monitoring_Enabled': 'False', 'GLIDEIN_Site': 'KIT', 'X509_USER_KEY': '/tmp/home/condor/dir_2784593/glide_8QWaJ6/hostkey.pem', 'CVMFS_oasis_opensciencegrid_org_REVISION': '11415', 'VO_SW_DIR': '/grid/fzk.de/mounts/nfs/software/', 'VO_DGRID_DIR': '/opt/d-grid/', 'GLIDEIN_ResourceName': 'FZK-LCG2', '_CONDOR_JOB_AD': '/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/.job.ad', 'OSG_SINGULARITY_IMAGE_DEFAULT': '/cvmfs/singularity.opensciencegrid.org/bbockelm/cms:rhel6', 'RUNTIME_CONFIG_DIR': '/etc/arc/runtime', 'GLIDEIN_Max_Tail': '600', 'GLIDEIN_Entry_Signature': '27d1517c3332374e66971eec8fb3756081944cc7', 'CMSSITE': 'T1_DE_KIT', 'MAIL': '/var/spool/mail/pcms68', 'GLIDECLIENT_Group': 'main', 'CONDOR_CONFIG': '/tmp/home/condor/dir_2784593/glide_8QWaJ6/condor_config', 'GLIDEIN_CMSSite': 'T1_DE_KIT', 'SSH_ASKPASS': '/usr/libexec/openssh/gnome-ssh-askpass', 'GLIDEIN_Entry_Name': 'CMSHTPC_T1_DE_KIT_arc-4', '_CONDOR_CHIRP_CONFIG': '/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/.chirp.config', 'VO_DTEAM_DEFAULT_SE': 'gridka-dcache.fzk.de', 'LCG_LOCATION': '/opt/lcg', 'VO_DECH_DEFAULT_SE': 'gridka-dcache.fzk.de', 'CONDOR_BIN_PATH': '/bin', 'LESSOPEN': '||/usr/bin/lesspipe.sh %s', 'SINGULARITY_VALIDATION_TIME': '.359635187', 'VO_LHCB_PROXY_URL': 'http://lhcbsq1-fzk.gridka.de:3128', 'CVS_RSH': 'ssh', 'GLIDEIN_CPUS': '8', 'USER': 'pcms68', 'INPUTRC': '/etc/inputrc', 'GLOBUS_LOCATION': '/opt/globus', 'GLIDEIN_SEs': 'cmssrm-kit.gridka.de', 'VO_ALICE_DEFAULT_SE': 'alice-tape-srm.gridka.de', 'TEMP': '/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978', 'GLIDEIN_CLAIM_WORKLIFE_DYNAMIC': 'cpus*(6*3600)', 'VO_OPS_DEFAULT_SE': 'cmssrm-kit.gridka.de', 'GLEXEC_BIN': 'NONE', 'GLOBUS_GSSAPI_SERVER_CIPHER_ORDER': 'true', '_CONDOR_JOB_IWD': '/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978', 'GT_PROXY_MODE': 'old', 'GLIDEIN_Name': 'gfactory_instance', 'VO_CMS_SW_DIR': '/cvmfs/cms.cern.ch/', 'VO_LHCB_DEFAULT_SE': 'gridka-dcache.fzk.de', 'GLIDEIN_ProcId': '0', 'MODULESHOME': '/usr/share/Modules', 'OPENSSL_ALLOW_PROXY_CERTS': '1', 'java_options': '-Xms128m -Xmx512m', 'OSG_SINGULARITY_BIND_CVMFS': '0', 'HAS_CVMFS_cms_cern_ch': 'True', '_CONDOR_MACHINE_AD': '/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/.machine.ad', 'HOME': '/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978', '_CONDOR_SLOT': 'slot1_5', 'GLOBUS_GSSAPI_BACKWARD_COMPATIBLE_MIC': 'true', 'Dashboard_Id': '7', 'VO_DECH_SW_DIR': '/grid/fzk.de/mounts/nfs/software/dech', 'ARC_LOCATION': '/usr', 'OSG_SINGULARITY_BIND_GPU_LIBS': '0', 'GLIDEIN_Gatekeeper': 'arc-4-kit.gridka.de', 'X509_VOMS_DIR': '/etc/grid-security/vomsdir', 'HAS_CVMFS_oasis_opensciencegrid_org': 'True', 'TMPDIR': '/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978', 'MODULEPATH': '/usr/share/Modules/modulefiles:/etc/modulefiles', 'PERL5LIB': '/opt/lcg/lib64/perl:/opt/gpt/lib/perl', 'GLIDEIN_Job_Max_Time': '14400', 'OMP_NUM_THREADS': '1', 'CONDOR_PROCD_ADDRESS': '/tmp/home/condor/dir_2784593/glide_8QWaJ6/log/procd_address', 'VO_GECLIPSE_DEFAULT_SE': 'gridka-dcache.fzk.de', 'OSG_SINGULARITY_VERSION': '2.6.1-dist', 'VO_ALICE_SW_DIR': '/grid/fzk.de/mounts/nfs/software/alice/lcg2', '_LMFILES_': '/usr/share/Modules/modulefiles/rocks-openmpi', 'VO_BELLE_SW_DIR': '/cvmfs/belle.cern.ch/sl6', 'TMP': '/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978', 'VO_BELLE_DEFAULT_SE': 'gridka-dcache.fzk.de', 'GLIDEIN_LOCAL_TMP_DIR': '/tmp/glide_pcms68_a5elGd', 'EDG_LOCATION': '/opt/edg', 'JOBFEATURES': '/tmp/home/condor/dir_2784593/jobfeatures', 'GLIDEIN_REQUIRED_OS': 'any', '_CONDOR_EXECUTE': '/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute', 'QTDIR': '/usr/lib64/qt-3.3', 'ROCKS_ROOT': '/opt/rocks', 'LD_LIBRARY_PATH': '/opt/openmpi/lib:/opt/d-cache/dcap/lib:/opt/glite/lib:/opt/glite/lib64:/opt/globus/lib:/opt/lcg/lib:/opt/lcg/lib64:/opt/d-cache/dcap/lib64:/usr/lib64:/opt/classads/lib64/:/opt/c-ares/lib/', 'CVMFS_cms_cern_ch_REVISION': '73210', 'SITE_GIIS_URL': 'giis-fzk.gridka.de', 'LANG': 'C', 'QTLIB': '/usr/lib64/qt-3.3/lib', 'GLOBUS_GSSAPI_FORCE_TLS': 'false', 'GLOBUS_GSSAPI_VHOST_CRED_OWNER': 'root', 'MPIHOME': '/opt/openmpi', 'QTINC': '/usr/lib64/qt-3.3/include', 'GLIDEIN_REQUIRE_GLEXEC_USE': 'False', 'G_BROKEN_FILENAMES': '1', '_CHIRP_DELAYED_UPDATE_PREFIX': 'Chirp*', 'GLITE_LOCATION_VAR': '/opt/glite/var', 'X509_USER_PROXY': '/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/x509up_u24239', 'GLOBUS_GSSAPI_CIPHERS': 'HIGH', '_': '/bin/env', 'OSG_SINGULARITY_IMAGE': '/cvmfs/singularity.opensciencegrid.org/opensciencegrid/tensorflow:latest', 'VO_ENMR_EU_DEFAULT_SE': 'gridka-dcache.fzk.de', 'GLIDECLIENT_Signature': '44bf8fcd9f73bdd4c5525d38ad35ca1df73831ed', 'Dashboard_taskid': 'cmsconnect_khurtado_submit_d3c04723f859368c', 'VO_LHCB_SW_DIR': '/cvmfs/lhcb.cern.ch', 'MEMORY_USAGE_METRIC': 'ifthenelse(ProportionalSetSizeKb=?=UNDEFINED,(ResidentSetSize +1023)/1024,(ProportionalSetSizeKb + 1023)/1024)', 'MYPROXY_SERVER': 'px-fzk.gridka.de', 'GSI_AUTHZ_CONF': '/dev/null', 'VO_CDF_SW_DIR': '/grid/fzk.de/mounts/nfs/software/cdf', '_CONDOR_WRAPPER_ERROR_FILE': '/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/.job_wrapper_failure', 'X509_CERT_DIR': '/etc/grid-security/certificates', 'GLIDEIN_REQUIRE_VOMS': 'False', 'X509_USER_CERT': '/tmp/home/condor/dir_2784593/glide_8QWaJ6/hostcert.pem', 'Dashboard_syncid': 'https://login.uscms.org//cmsconnect_khurtado_submit_d3c04723f859368c//12345.MetaID', 'ATLAS_LOCAL_AREA': '/sw/atlas/sl5/local', 'GLIDEIN_Country': 'DE', 'VO_AUGER_SW_DIR': '/cvmfs/auger.egi.eu', 'VO_ATLAS_SW_DIR': '/cvmfs/atlas.cern.ch/repo/sw', 'GLIDEIN_Glexec_Use': 'OPTIONAL', 'VO_AUGER_DEFAULT_SE': 'gridka-dcache.fzk.de', 'NSLOTS': '8', 'GRID_GLOBAL_JOBID': 'gsiftp://arc-4-kit.gridka.de:2811/jobs/K5PMDmpkxhun8LTVzn4uePCoABFKDmABFKDmcFPTDmABFKDmLz76lm', 'GLIDEIN_Factory': 'CERN-Prod', 'GLIDEIN_Proxy_URL': 'None', 'GPUDetection': 'No GPUs detected', 'GLIDEIN_Signature': 'b870fd61148c70837bba0e3c802d385e47d70edb', 'LOGNAME': 'pcms68', 'PATH': '/tmp/home/condor/dir_2784593/glide_8QWaJ6/main/condor/libexec:/opt/gridengine/bin/lx-amd64:/opt/openmpi/bin:/usr/lib64/qt-3.3/bin:/opt/d-cache/srm/bin:/opt/d-cache/dcap/bin:/opt/edg/bin:/opt/glite/bin:/opt/globus/bin:/opt/lcg/bin:/sbin:/usr/sbin:/bin:/usr/bin:/opt/ganglia/bin:/opt/ganglia/sbin:/usr/java/latest/bin:/opt/rocks/bin:/opt/rocks/sbin:/opt/glite/bin:/opt/glite/sbin:/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978', 'CMS_VALIDATION_FRONTIER': '0', 'GLOBUS_TCP_PORT_RANGE': '20000,25000', 'REQUIRED_OS': 'rhel7', 'CONDOR_PARENT_ID': 'c01-009-167:1174978:1557259159', 'VO_BABAR_SW_DIR': '/grid/fzk.de/mounts/nfs/software/babar', 'HAS_CVMFS_singularity_opensciencegrid_org': 'True', 'OSG_SINGULARITY_AUTOLOAD': 'false', 'GLOBUS_GSSAPI_NAME_COMPATIBILITY': 'STRICT_RFC2818', 'GLIDEIN_Max_Idle': '600', 'GLEXEC_LOCATION': '/usr', '_CONDOR_ANCESTOR_2793210': '1174978:1557259158:2456225042', 'GLIDECLIENT_Name': 'CMSG-v1_0.main', 'SITE_NAME': 'FZK-LCG2', 'GLIDEIN_GlobusRSL': '(queue=grid)(count=8)(memory=3000)(runtimeenvironment=ENV/GLITE)', 'VO_BABAR_DEFAULT_SE': 'lcg-gridka-se.fzk.de', 'OMPI_MCA_btl': 'tcp,self', 'GLIDECLIENT_Group_Signature': '8e5dc3c7ae52170e767cef8b57debbb530b9b99c', '_CONDOR_ANCESTOR_1174978': '1174987:1557259163:1863448617', 'GLITE_LOCATION': '/usr', 'MACHINEFEATURES': '/etc/machinefeatures', 'Dashboard_monitorid': 'MetaID_https://login.uscms.org/78c87f8f593495fb/MetaID', 'VO_ENMR_EU_SW_DIR': '/opt/d-grid/enmr', 'GLOBUS_GSSAPI_MAX_TLS_PROTOCOL': '0', 'GLIDEIN_GridType': 'nordugrid', 'LOADEDMODULES': 'rocks-openmpi', 'VO_COMPASS_SW_DIR': '/grid/fzk.de/mounts/nfs/software/compass/lcg2', 'VO_DGTEST_SW_DIR': '/opt/d-grid/dgtest', 'SHLVL': '6', 'PWD': '/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978', 'HOSTNAME': 'c01-009-167', 'GRIDMAP': '/tmp/home/condor/dir_2784593/glide_8QWaJ6/grid-mapfile', '_CONDOR_SCRATCH_DIR': '/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978', 'VO_ATLAS_DEFAULT_SE': 'atlassrm-fzk.gridka.de', 'HAS_SINGULARITY': '1'}
+Start time: Tue May  7 21:59:24 CEST 2019
+Job is running on node: c01-009-167
+Job running as user: uid=14968(pcms68) gid=5606(pcms) groups=5606(pcms),5600(cms)
+Job is running in directory: /tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978
+SO version
+Scientific Linux release 6.10 (Carbon)
+Kernel \r on an \m
+
+Scientific Linux release 6.10 (Carbon)
+CVMFS->local
+lrwxrwxrwx 1 cvmfs cvmfs 19 Sep 19  2017 /cvmfs/cms.cern.ch/SITECONF/local -> /etc/cvmfs/SITECONF
+singularity version
+2.6.1-dist
+
+
+
+-----------XRootD tests-------------
+xrdcopy location: which: no xrdcopy in (/tmp/home/condor/dir_2784593/glide_8QWaJ6/main/condor/libexec:/opt/gridengine/bin/lx-amd64:/opt/openmpi/bin:/usr/lib64/qt-3.3/bin:/opt/d-cache/srm/bin:/opt/d-cache/dcap/bin:/opt/edg/bin:/opt/glite/bin:/opt/globus/bin:/opt/lcg/bin:/sbin:/usr/sbin:/bin:/usr/bin:/opt/ganglia/bin:/opt/ganglia/sbin:/usr/java/latest/bin:/opt/rocks/bin:/opt/rocks/sbin:/opt/glite/bin:/opt/glite/sbin:/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978)
+@@@First test in debug mode@@@
+Tue May 7 21:59:25 CEST 2019 xrdcopy -f root://hepxrd01.colorado.edu:1094//store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root
+/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/short.sh: line 27: xrdcopy: command not found
+exit code: 127 
+
+nn@@@Second test
+Tue May 7 21:59:25 CEST 2019 xrdcopy -f root://hepxrd01.colorado.edu:1094//store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root file:///tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/TestColorado.root
+/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/short.sh: line 32: xrdcopy: command not found
+exit code: 127 
+
+nn@@@Third test
+Tue May 7 21:59:25 CEST 2019 xrdcopy -f /store/user/johnsond/gridftp-probe-test-file.1392772080.29006.remote
+/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/short.sh: line 37: xrdcopy: command not found
+exit code: 127 
+
+-----------end of XRootD tests-------------
+
+
+
+----------GFAL-COPY tests to XRootD Server (via xrd plugin)---------
+gfal-copy location: /usr/bin/gfal-copy
+@@@First test in verbose mode@@@
+Tue May 7 21:59:25 CEST 2019gfal-copy -vvv -f root://hepxrd01.colorado.edu:1094//store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root /tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/TestColorado.root
+DEBUG  no GFAL_CONFIG_DIR env var found, try to load configuration from default directory /etc/gfal2.d/
+DEBUG  try to load configuration file /etc/gfal2.d//gsiftp_plugin.conf ...
+DEBUG  try to load configuration file /etc/gfal2.d//x509.conf ...
+DEBUG  try to load configuration file /etc/gfal2.d//rfio_plugin.conf ...
+DEBUG  try to load configuration file /etc/gfal2.d//bdii.conf ...
+DEBUG  try to load configuration file /etc/gfal2.d//gfal2_core.conf ...
+DEBUG  try to load configuration file /etc/gfal2.d//lfc_plugin.conf ...
+DEBUG  try to load configuration file /etc/gfal2.d//xrootd_plugin.conf ...
+DEBUG  try to load configuration file /etc/gfal2.d//dcap_plugin.conf ...
+DEBUG  try to load configuration file /etc/gfal2.d//http_plugin.conf ...
+DEBUG  try to load configuration file /etc/gfal2.d//sftp_plugin.conf ...
+DEBUG  try to load configuration file /etc/gfal2.d//srm_plugin.conf ...
+DEBUG Using credentials from X509_USER_PROXY
+DEBUG Certificate: /tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/x509up_u24239
+DEBUG Private key: /tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/x509up_u24239
+DEBUG ... no GFAL_PLUGIN_DIR environment variable specified, try to load plugins in the default directory : /usr/lib64/gfal2-plugins/
+DEBUG  [gfal_list_directory_plugins] add plugin to list to load /usr/lib64/gfal2-plugins//libgfal_plugin_sftp.so 
+DEBUG  [gfal_list_directory_plugins] add plugin to list to load /usr/lib64/gfal2-plugins//libgfal_plugin_srm.so 
+DEBUG  [gfal_list_directory_plugins] add plugin to list to load /usr/lib64/gfal2-plugins//libgfal_plugin_rfio.so 
+DEBUG  [gfal_list_directory_plugins] add plugin to list to load /usr/lib64/gfal2-plugins//libgfal_plugin_lfc.so 
+DEBUG  [gfal_list_directory_plugins] add plugin to list to load /usr/lib64/gfal2-plugins//libgfal_plugin_file.so 
+DEBUG  [gfal_list_directory_plugins] add plugin to list to load /usr/lib64/gfal2-plugins//libgfal_plugin_dcap.so 
+DEBUG  [gfal_list_directory_plugins] add plugin to list to load /usr/lib64/gfal2-plugins//libgfal_plugin_xrootd.so 
+DEBUG  [gfal_list_directory_plugins] add plugin to list to load /usr/lib64/gfal2-plugins//libgfal_plugin_http.so 
+DEBUG  [gfal_list_directory_plugins] add plugin to list to load /usr/lib64/gfal2-plugins//libgfal_plugin_gridftp.so 
+INFO [gfal_module_load] plugin /usr/lib64/gfal2-plugins//libgfal_plugin_sftp.so loaded with success 
+DEBUG  gfal_plugin loaded succesfully : /usr/lib64/gfal2-plugins//libgfal_plugin_sftp.so
+INFO [gfal_module_load] plugin /usr/lib64/gfal2-plugins//libgfal_plugin_srm.so loaded with success 
+DEBUG  gfal_plugin loaded succesfully : /usr/lib64/gfal2-plugins//libgfal_plugin_srm.so
+DEBUG lib rfio is not defined in LCG_RFIO_TYPE, try to found it 
+DEBUG rfio library libdpm.so.1 found! configured to use it
+INFO [gfal_module_load] plugin /usr/lib64/gfal2-plugins//libgfal_plugin_rfio.so loaded with success 
+DEBUG  gfal_plugin loaded succesfully : /usr/lib64/gfal2-plugins//libgfal_plugin_rfio.so
+INFO [gfal_module_load] plugin /usr/lib64/gfal2-plugins//libgfal_plugin_lfc.so loaded with success 
+DEBUG  gfal_plugin loaded succesfully : /usr/lib64/gfal2-plugins//libgfal_plugin_lfc.so
+INFO [gfal_module_load] plugin /usr/lib64/gfal2-plugins//libgfal_plugin_file.so loaded with success 
+DEBUG  gfal_plugin loaded succesfully : /usr/lib64/gfal2-plugins//libgfal_plugin_file.so
+INFO [gfal_module_load] plugin /usr/lib64/gfal2-plugins//libgfal_plugin_dcap.so loaded with success 
+DEBUG  gfal_plugin loaded succesfully : /usr/lib64/gfal2-plugins//libgfal_plugin_dcap.so
+INFO [gfal_module_load] plugin /usr/lib64/gfal2-plugins//libgfal_plugin_xrootd.so loaded with success 
+DEBUG  gfal_plugin loaded succesfully : /usr/lib64/gfal2-plugins//libgfal_plugin_xrootd.so
+DEBUG Davix: Enable GRID profile for DAVIX
+DEBUG Davix: Adding CA path /etc/grid-security/certificates to valid CA path list
+DEBUG Davix: Using X509_USER_PROXY to supply credentials: /tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/x509up_u24239
+INFO [gfal_module_load] plugin /usr/lib64/gfal2-plugins//libgfal_plugin_http.so loaded with success 
+DEBUG  gfal_plugin loaded succesfully : /usr/lib64/gfal2-plugins//libgfal_plugin_http.so
+DEBUG  -> [gridftp_plugin] try to load ..
+DEBUG  define GSIFTP session re-use to TRUE
+DEBUG  -> [gridftp_plugin] loaded ..
+INFO [gfal_module_load] plugin /usr/lib64/gfal2-plugins//libgfal_plugin_gridftp.so loaded with success 
+DEBUG  gfal_plugin loaded succesfully : /usr/lib64/gfal2-plugins//libgfal_plugin_gridftp.so
+DEBUG  plugin priority order: lfc-2.16.1 -> sftp-2.16.1 -> srm-2.16.1 -> rfio-2.16.1 -> file-2.16.1 -> dcap-2.16.1 -> xrootd-2.16.1 -> http-2.16.1 -> gridftp-2.16.1 -> 
+DEBUG Xrootd Query URI: xrd.gsiusrpxy=/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/x509up_u24239
+DEBUG  -> Gfal::Transfer::FileCopy
+INFO Event triggered: BOTH GFAL2:CORE:COPY LIST:ENTER 
+INFO Event triggered: BOTH GFAL2:CORE:COPY LIST:ITEM root://hepxrd01.colorado.edu:1094//store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root => file:///tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/TestColorado.root
+INFO Event triggered: BOTH GFAL2:CORE:COPY LIST:EXIT 
+DEBUG Xrootd Query URI: xrd.gsiusrpxy=/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/x509up_u24239
+DEBUG Xrootd Query URI: xrd.gsiusrpxy=/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/x509up_u24239
+DEBUG Impossible to get integer parameter XROOTD PLUGIN:PARALLEL_COPIES, set to default value 20, err Key file does not have key 'PARALLEL_COPIES'
+INFO Event triggered: BOTH xroot TRANSFER:ENTER root://hepxrd01.colorado.edu:1094///store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root?xrd.gsiusrpxy=/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/x509up_u24239 => file://localhost///tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/TestColorado.root?xrd.gsiusrpxy=/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/x509up_u24239
+INFO Event triggered: BOTH xroot TRANSFER:TYPE streamed
+Copying 240461986 bytes root://hepxrd01.colorado.edu:1094//store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root => file:///tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/TestColorado.root
+event: [1557259167932] BOTH   GFAL2:CORE:COPY	LIST:ENTER	
+event: [1557259167932] BOTH   GFAL2:CORE:COPY	LIST:ITEM	root://hepxrd01.colorado.edu:1094//store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root => file:///tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/TestColorado.root
+event: [1557259167932] BOTH   GFAL2:CORE:COPY	LIST:EXIT	
+event: [1557259167934] BOTH   xroot	TRANSFER:ENTER	root://hepxrd01.colorado.edu:1094///store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root?xrd.gsiusrpxy=/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/x509up_u24239 => file://localhost///tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/TestColorado.root?xrd.gsiusrpxy=/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/x509up_u24239
+event: [1557259167934] BOTH   xroot	TRANSFER:TYPE	streamed
+monitor: root://hepxrd01.colorado.edu:1094///store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root?xrd.gsiusrpxy=/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/x509up_u24239 file://localhost///tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/TestColorado.root?xrd.gsiusrpxy=/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/x509up_u24239 202135 202135 16777216 83
+monitor: root://hepxrd01.colorado.edu:1094///store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root?xrd.gsiusrpxy=/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/x509up_u24239 file://localhost///tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/TestColorado.root?xrd.gsiusrpxy=/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/x509up_u24239 404270 404270 33554432 83
+monitor: root://hepxrd01.colorado.edu:1094///store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root?xrd.gsiusrpxy=/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/x509up_u24239 file://localhost///tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/TestColorado.root?xrd.gsiusrpxy=/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/x509up_u24239 606405 606405 50331648 83
+monitor: root://hepxrd01.colorado.edu:1094///store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root?xrd.gsiusrpxy=/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/x509up_u24239 file://localhost///tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/TestColorado.root?xrd.gsiusrpxy=/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/x509up_u24239 798915 798915 67108864 84
+monitor: root://hepxrd01.colorado.edu:1094///store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root?xrd.gsiusrpxy=/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/x509up_u24239 file://localhost///tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/TestColorado.root?xrd.gsiusrpxy=/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/x509up_u24239 355449 355449 83886080 236
+monitor: root://hepxrd01.colorado.edu:1094///store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root?xrd.gsiusrpxy=/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/x509up_u24239 file://localhost///tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/TestColorado.root?xrd.gsiusrpxy=/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/x509up_u24239 421185 421185 100663296 239
+monitor: root://hepxrd01.colorado.edu:1094///store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root?xrd.gsiusrpxy=/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/x509up_u24239 file://localhost///tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/TestColorado.root?xrd.gsiusrpxy=/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/x509up_u24239 491382 491382 117440512 239
+monitor: root://hepxrd01.colorado.edu:1094///store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root?xrd.gsiusrpxy=/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/x509up_u24239 file://localhost///tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/TestColorado.root?xrd.gsiusrpxy=/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/x509up_u24239 561580 561580 134217728 239
+monitor: root://hepxrd01.colorado.edu:1094///store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root?xrd.gsiusrpxy=/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/x509up_u24239 file://localhost///tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/TestColorado.root?xrd.gsiusrpxy=/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/x509up_u24239 524288 524288 150994944 288
+monitor: root://hepxrd01.colorado.edu:1094///store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root?xrd.gsiusrpxy=/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/x509up_u24239 file://localhost///tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/TestColorado.root?xrd.gsiusrpxy=/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/x509up_u24239 578524 578524 167772160 290
+monitor: root://hepxrd01.colorado.edu:1094///store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root?xrd.gsiusrpxy=/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/x509up_u24239 file://localhost///tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/TestColorado.root?xrd.gsiusrpxy=/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/x509up_u24239 636377 636377 184549376 290
+monitor: root://hepxrd01.colorado.edu:1094///store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root?xrd.gsiusrpxy=/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/x509up_u24239 file://localhost///tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/TestColorado.root?xrd.gsiusrpxy=/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/x509up_u24239 691843 691843 201326592 291
+monitor: root://hepxrd01.colorado.edu:1094///store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root?xrd.gsiusrpxy=/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/x509up_u24239 file://localhost///tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/TestColorado.root?xrd.gsiusrpxy=/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/x509up_u24239 712757 712757 218103808 306
+monitor: root://hepxrd01.colorado.edu:1094///store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root?xrd.gsiusrpxy=/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/x509up_u24239 file://localhost///tmp/home/coINFO Event triggered: BOTH xroot TRANSFER:EXIT Job finished, [SUCCESS] 
+DEBUG  <- Gfal::Transfer::FileCopy
+DEBUG gridftp session cache garbage collection ...
+ndor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/TestColorado.root?xrd.gsiusrpxy=/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/x509up_u24239 767585 767585 234881024 306
+monitor: root://hepxrd01.colorado.edu:1094///store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root?xrd.gsiusrpxy=/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/x509up_u24239 file://localhost///tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/TestColorado.root?xrd.gsiusrpxy=/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/x509up_u24239 785823 785823 240461986 306
+event: [1557259474082] BOTH   xroot	TRANSFER:EXIT	Job finished, [SUCCESS] 
+exit code: 0 
+
+nn@@@Second test
+Tue May 7 22:04:34 CEST 2019gfal-copy -f root://hepxrd01.colorado.edu:1094//store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root
+Copying 240461986 bytes root://hepxrd01.colorado.edu:1094//store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root => file:///tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/TestColorado.root
+exit code: 0 
+
+nn@@@Third test
+Tue May 7 22:07:17 CEST 2019gfal-copy -f root://cms-xrd-global.cern.ch//store/user/johnsond/gridftp-probe-test-file.1392772080.29006.remote
+Copying 26295004 bytes root://cms-xrd-global.cern.ch//store/user/johnsond/gridftp-probe-test-file.1392772080.29006.remote => file:///tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/TestColorado.root
+exit code: 0 
+
+
+
+
+----------GFAL-COPY tests to GSIFTP Server---------
+Tue May 7 22:07:48 CEST 2019gfal-ls -vvv gsiftp://gridftp-hadoop.colorado.edu/mnt/hadoop/store
+DEBUG  no GFAL_CONFIG_DIR env var found, try to load configuration from default directory /etc/gfal2.d/
+DEBUG  try to load configuration file /etc/gfal2.d//gsiftp_plugin.conf ...
+DEBUG  try to load configuration file /etc/gfal2.d//x509.conf ...
+DEBUG  try to load configuration file /etc/gfal2.d//rfio_plugin.conf ...
+DEBUG  try to load configuration file /etc/gfal2.d//bdii.conf ...
+DEBUG  try to load configuration file /etc/gfal2.d//gfal2_core.conf ...
+DEBUG  try to load configuration file /etc/gfal2.d//lfc_plugin.conf ...
+DEBUG  try to load configuration file /etc/gfal2.d//xrootd_plugin.conf ...
+DEBUG  try to load configuration file /etc/gfal2.d//dcap_plugin.conf ...
+DEBUG  try to load configuration file /etc/gfal2.d//http_plugin.conf ...
+DEBUG  try to load configuration file /etc/gfal2.d//sftp_plugin.conf ...
+DEBUG  try to load configuration file /etc/gfal2.d//srm_plugin.conf ...
+DEBUG Using credentials from X509_USER_PROXY
+DEBUG Certificate: /tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/x509up_u24239
+DEBUG Private key: /tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/x509up_u24239
+DEBUG ... no GFAL_PLUGIN_DIR environment variable specified, try to load plugins in the default directory : /usr/lib64/gfal2-plugins/
+DEBUG  [gfal_list_directory_plugins] add plugin to list to load /usr/lib64/gfal2-plugins//libgfal_plugin_sftp.so 
+DEBUG  [gfal_list_directory_plugins] add plugin to list to load /usr/lib64/gfal2-plugins//libgfal_plugin_srm.so 
+DEBUG  [gfal_list_directory_plugins] add plugin to list to load /usr/lib64/gfal2-plugins//libgfal_plugin_rfio.so 
+DEBUG  [gfal_list_directory_plugins] add plugin to list to load /usr/lib64/gfal2-plugins//libgfal_plugin_lfc.so 
+DEBUG  [gfal_list_directory_plugins] add plugin to list to load /usr/lib64/gfal2-plugins//libgfal_plugin_file.so 
+DEBUG  [gfal_list_directory_plugins] add plugin to list to load /usr/lib64/gfal2-plugins//libgfal_plugin_dcap.so 
+DEBUG  [gfal_list_directory_plugins] add plugin to list to load /usr/lib64/gfal2-plugins//libgfal_plugin_xrootd.so 
+DEBUG  [gfal_list_directory_plugins] add plugin to list to load /usr/lib64/gfal2-plugins//libgfal_plugin_http.so 
+DEBUG  [gfal_list_directory_plugins] add plugin to list to load /usr/lib64/gfal2-plugins//libgfal_plugin_gridftp.so 
+INFO [gfal_module_load] plugin /usr/lib64/gfal2-plugins//libgfal_plugin_sftp.so loaded with success 
+DEBUG  gfal_plugin loaded succesfully : /usr/lib64/gfal2-plugins//libgfal_plugin_sftp.so
+INFO [gfal_module_load] plugin /usr/lib64/gfal2-plugins//libgfal_plugin_srm.so loaded with success 
+DEBUG  gfal_plugin loaded succesfully : /usr/lib64/gfal2-plugins//libgfal_plugin_srm.so
+DEBUG lib rfio is not defined in LCG_RFIO_TYPE, try to found it 
+DEBUG rfio library libdpm.so.1 found! configured to use it
+INFO [gfal_module_load] plugin /usr/lib64/gfal2-plugins//libgfal_plugin_rfio.so loaded with success 
+DEBUG  gfal_plugin loaded succesfully : /usr/lib64/gfal2-plugins//libgfal_plugin_rfio.so
+INFO [gfal_module_load] plugin /usr/lib64/gfal2-plugins//libgfal_plugin_lfc.so loaded with success 
+DEBUG  gfal_plugin loaded succesfully : /usr/lib64/gfal2-plugins//libgfal_plugin_lfc.so
+INFO [gfal_module_load] plugin /usr/lib64/gfal2-plugins//libgfal_plugin_file.so loaded with success 
+DEBUG  gfal_plugin loaded succesfully : /usr/lib64/gfal2-plugins//libgfal_plugin_file.so
+INFO [gfal_module_load] plugin /usr/lib64/gfal2-plugins//libgfal_plugin_dcap.so loaded with success 
+DEBUG  gfal_plugin loaded succesfully : /usr/lib64/gfal2-plugins//libgfal_plugin_dcap.so
+INFO [gfal_module_load] plugin /usr/lib64/gfal2-plugins//libgfal_plugin_xrootd.so loaded with success 
+DEBUG  gfal_plugin loaded succesfully : /usr/lib64/gfal2-plugins//libgfal_plugin_xrootd.so
+DEBUG Davix: Enable GRID profile for DAVIX
+DEBUG Davix: Adding CA path /etc/grid-security/certificates to valid CA path list
+DEBUG Davix: Using X509_USER_PROXY to supply credentials: /tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/x509up_u24239
+INFO [gfal_module_load] plugin /usr/lib64/gfal2-plugins//libgfal_plugin_http.so loaded with success 
+DEBUG  gfal_plugin loaded succesfully : /usr/lib64/gfal2-plugins//libgfal_plugin_http.so
+DEBUG  -> [gridftp_plugin] try to load ..
+DEBUG  define GSIFTP session re-use to TRUE
+DEBUG  -> [gridftp_plugin] loaded ..
+INFO [gfal_module_load] plugin /usr/lib64/gfal2-plugins//libgfal_plugin_gridftp.so loaded with success 
+DEBUG  gfal_plugin loaded succesfully : /usr/lib64/gfal2-plugins//libgfal_plugin_gridftp.so
+DEBUG  plugin priority order: lfc-2.16.1 -> sftp-2.16.1 -> srm-2.16.1 -> rfio-2.16.1 -> file-2.16.1 -> dcap-2.16.1 -> xrootd-2.16.1 -> http-2.16.1 -> gridftp-2.16.1 -> 
+DEBUG   -> [gfal_gridftp_statG]
+DEBUG  -> [GridFTPModule::stat] 
+DEBUG  -> [Gridftp_stat_module::globus_gass_stat] 
+DEBUG GSIFTP using certificate /tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/x509up_u24239
+DEBUG GSIFTP using private key /tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/x509up_u24239
+DEBUG no session associated with this baseurl, try find generic one .... 
+DEBUG no session found in cache for gsiftp://gridftp-hadoop.colorado.edu:0!
+DEBUG Impossible to get integer parameter GRIDFTP PLUGIN:BLOCK_SIZE, set to default value 0, err Key file does not have key 'BLOCK_SIZE'
+DEBUG Impossible to get integer parameter GRIDFTP PLUGIN:OPERATION_TIMEOUT, set to default value 1800, err Key file does not have key 'OPERATION_TIMEOUT'
+DEBUG    [GridFTP_Request_state::wait_callback] setup gsiftp timeout to 1800 seconds
+DEBUG  gridFTP operation done
+DEBUG Stat via MLST
+DEBUG Impossible to get integer parameter GRIDFTP PLUGIN:OPERATION_TIMEOUT, set to default value 1800, err Key file does not have key 'OPERATION_TIMEOUT'
+DEBUG    [GridFTP_Request_state::wait_callback] setup gsiftp timeout to 1800 seconds
+DEBUG  gridFTP operation done
+DEBUG    <- [gridftp_stat_mlst]] Got 'Type=dir;Modify=20160102215808;Size=4096;Perm=el;UNIX.mode=0755;UNIX.owner=root;UNIX.uid=0;UNIX.group=root;UNIX.gid=0;Unique=0-0; /mnt/hadoop/store'
+DEBUG  <- [Gridftp_stat_module::internal_globus_gass_stat] 
+DEBUG insert gridftp session for gsiftp://gridftp-hadoop.colorado.edu:0 in cache ...
+DEBUG  <- [GridFTPModule::stat] 
+DEBUG   [gfal_gridftp_statG]<-
+DEBUG   -> [gfal_gridftp_opendirG]
+DEBUG   -> [gfal_gridftp_statG]
+DEBUG  -> [GridFTPModule::stat] 
+DEBUG  -> [Gridftp_stat_module::globus_gass_stat] 
+DEBUG GSIFTP using certificate /tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/x509up_u24239
+DEBUG GSIFTP using private key /tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/x509up_u24239
+DEBUG gridftp session for: gsiftp://gridftp-hadoop.colorado.edu:0 found in  cache !
+DEBUG Impossible to get integer parameter GRIDFTP PLUGIN:OPERATION_TIMEOUT, set to default value 1800, err Key file does not have key 'OPERATION_TIMEOUT'
+DEBUG    [GridFTP_Request_state::wait_callback] setup gsiftp timeout to 1800 seconds
+DEBUG  gridFTP operation done
+DEBUG Stat via MLST
+DEBUG Impossible to get integer parameter GRIDFTP PLUGIN:OPERATION_TIMEOUT, set to default value 1800, err Key file does not have key 'OPERATION_TIMEOUT'
+DEBUG    [GridFTP_Request_state::wait_callback] setup gsiftp timeout to 1800 seconds
+DEBUG  gridFTP operation done
+DEBUG    <- [gridftp_stat_mlst]] Got 'Type=dir;Modify=20160102215808;Size=4096;Perm=el;UNIX.mode=0755;UNIX.owner=root;UNIX.uid=0;UNIX.group=root;UNIX.gid=0;Unique=0-0; /mnt/hadoop/store'
+DEBUG  <- [Gridftp_stat_module::internal_globus_gass_stat] 
+DEBUG insert gridftp session for gsiftp://gridftp-hadoop.colorado.edu:0 in cache ...
+DEBUG  <- [GridFTPModule::stat] 
+DEBUG   [gfal_gridftp_statG]<-
+DEBUG   -> [gfal_gridftp_readdirG]
+DEBUG GSIFTP using certificate /tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/x509up_u24239
+DEBUG GSIFTP using private key /tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/x509up_u24239
+DEBUG gridftp session for: gsiftp://gridftp-hadoop.colorado.edu:0 found in  cache !
+DEBUG Impossible to get integer parameter GRIDFTP PLUGIN:OPERATION_TIMEOUT, set to default value 1800, err Key file does not have key 'OPERATION_TIMEOUT'
+DEBUG    [GridFTP_Request_state::wait_callback] setup gsiftp timeout to 1800 seconds
+DEBUG  gridFTP operation done
+DEBUG Impossible to get integer parameter GRIDFTP PLUGIN:OPERATION_TIMEOUT, set to default value 1800, err Key file does not have key 'OPERATION_TIMEOUT'
+DEBUG Impossible to get integer parameter GRIDFTP PLUGIN:OPERATION_TIMEOUT, set to default value 1800, err Key file does not have key 'OPERATION_TIMEOUT'
+DEBUG  -> [GridftpSimpleListReader::GridftpSimpleListReader]
+DEBUG   -> [gridftp_read_stream]
+DEBUG    [GridFTP_Request_state::wait_callback] setup gsiftp timeout to 1800 seconds
+DEBUG  <- [GridftpSimpleListReader::GridftpSimpleListReader]
+DEBUG  -> [GridftpSimpleListReader::readdir]
+DEBUG  gridFTP operation done
+DEBUG   list file PhEDEx_LoadTest07 
+DEBUG   [GridftpSimpleListReader::readdir] <- 
+DEBUG   [gfal_gridftp_readdirG] <-
+DEBUG   -> [gfal_gridftp_readdirG]
+DEBUG  -> [GridftpSimpleListReader::readdir]
+DEBUG   list file data 
+DEBUG   [GridftpSimpleListReader::readdir] <- 
+DEBUG   [gfal_gridftp_readdirG] <-
+DEBUG   -> [gfal_gridftp_readdirG]
+DEBUG  -> [GridftpSimpleListReader::readdir]
+DEBUG   list file generator 
+DEBUG   [GridftpSimpleListReader::readdir] <- 
+DEBUG   [gfal_gridftp_readdirG] <-
+DEBUG   -> [gfal_gridftp_readdirG]
+DEBUG  -> [GridftpSimpleListReader::readdir]
+DEBUG   list file group 
+DEBUG   [GridftpSimpleListReader::readdir] <- 
+DEBUG   [gfal_gridftp_readdirG] <-
+DEBUG   -> [gfal_gridftp_readdirG]
+DEBUG  -> [GridftpSimpleListReader::readdir]
+DEBUG   list file hidata 
+DEBUG   [GridftpSimpleListReader::readdir] <- 
+DEBUG   [gfal_gridftp_readdirG] <-
+DEBUG   -> [gfal_gridftp_readdirG]
+DEBUG  -> [GridftpSimpleListReader::readdir]
+DEBUG   list file himc 
+DEBUG   [GridftpSimpleListReader::readdir] <- 
+DEBUG   [gfal_gridftp_readdirG] <-
+DEBUG   -> [gfal_gridftp_readdirG]
+DEBUG  -> [GridftpSimpleListReader::readdir]
+DEBUG   list file mc 
+DEBUG   [GridftpSimpleListReader::readdir] <- 
+DEBUG   [gfal_gridftp_readdirG] <-
+DEBUG   -> [gfal_gridftp_readdirG]
+DEBUG  -> [GridftpSimpleListReader::readdir]
+DEBUG   list file merge 
+DEBUG   [GridftpSimpleListReader::readdir] <- 
+DEBUG   [gfal_gridftp_readdirG] <-
+DEBUG   -> [gfal_gridftp_readdirG]
+DEBUG  -> [GridftpSimpleListReader::readdir]
+DEBUG   list file relval 
+DEBUG   [GridftpSimpleListReader::readdir] <- 
+DEBUG   [gfal_gridftp_readdirG] <-
+DEBUG   -> [gfal_gridftp_readdirG]
+DEBUG  -> [GridftpSimpleListReader::readdir]
+DEBUG   list file results 
+DEBUG   [GridftpSimpleListReader::readdir] <- 
+DEBUG   [gfal_gridftp_readdirG] <-
+DEBUG   -> [gfal_gridftp_readdirG]
+DEBUG  -> [GridftpSimpleListReader::readdir]
+DEBUG   list file temp 
+DEBUG   [GridftpSimpleListReader::readdir] <- 
+DEBUG   [gfal_gridftp_readdirG] <-
+DEBUG   -> [gfal_gridftp_readdirG]
+DEBUG  -> [GridftpSimpleListReader::readdir]
+DEBUG   list file test 
+DEBUG   [GridftpSimpleListReader::readdir] <- 
+DEBUG   [gfal_gridftp_readdirG] <-
+DEBUG   -> [gfal_gridftp_readdirG]
+DEBUG  -> [GridftpSimpleListReader::readdir]
+DEBUG   list file unmerged 
+DEBUG   [GridftpSimpleListReader::readdir] <- 
+DEBUG   [gfal_gridftp_readdirG] <-
+DEBUG   -> [gfal_gridftp_readdirG]
+DEBUG  -> [GridftpSimpleListReader::readdir]
+DEBUG   list file user 
+DEBUG   [GridftpSimpleListReader::readdir] <- 
+DEBUG   [gfal_gridftp_readdirG] <-
+DEBUG   -> [gfal_gridftp_readdirG]
+DEBUG  -> [GridftpSimpleListReader::readdir]
+DEBUG   -> [gridftp_read_stream]
+DEBUG   [gfal_gridftp_readdirG] <-
+DEBUG   -> [gfal_gridftp_closedirG]
+DEBUG    [GridFTP_Request_state::wait_callback] setup gsiftp timeout to 1800 seconds
+DEBUG insert gridftp session for gsiftp://gridftp-hadoop.colorado.edu:0 in cache ...
+DEBUG   [gfal_gridftp_closedirG] <-
+DEBUG gridftp session cache garbage collection ...
+PhEDEx_LoadTest07
+data
+generator
+group
+hidata
+himc
+mc
+merge
+relval
+results
+temp
+test
+unmerged
+user
+exit code: 0 
+
+----------end of GFAL-COPY tests---------
+-----Print environment------
+
+VO_DGRID_DIR=/opt/d-grid/
+GLIDEIN_ResourceName=FZK-LCG2
+GLIDEIN_SEs=cmssrm-kit.gridka.de
+OSG_SINGULARITY_VERSION=2.6.1-dist
+Dashboard_monitorid=MetaID_https://login.uscms.org/78c87f8f593495fb/MetaID
+VO_DGTEST_SW_DIR=/opt/d-grid/dgtest
+_CONDOR_JOB_PIDS=
+CMS_GLIDEIN_VERSION=18
+MANPATH=/opt/edg/share/man:/opt/glite/share/man:/opt/glite/yaim/man:/opt/globus/man:/opt/lcg/man:/opt/lcg/share/man::::::
+GRIDMAP=/tmp/home/condor/dir_2784593/glide_8QWaJ6/grid-mapfile
+GLIDEIN_REQUIRE_GLEXEC_USE=False
+HOSTNAME=c01-009-167
+VO_DGTEST_DEFAULT_SE=dgiref-dcache.fzk.de
+REQUIRED_OS=rhel7
+OSG_SINGULARITY_BIND_GPU_LIBS=0
+VO_ALICE_SW_DIR=/grid/fzk.de/mounts/nfs/software/alice/lcg2
+GRID_ENV_LOCATION=/opt/glite/etc/profile.d
+OSG_MACHINE_GPUS=0
+HISTSIZE=1000
+GLIDEIN_CPUS=8
+GLOBUS_LOCATION=/opt/globus
+TMPDIR=/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978
+VO_OPS_DEFAULT_SE=cmssrm-kit.gridka.de
+PERL5LIB=/opt/lcg/lib64/perl:/opt/gpt/lib/perl
+GLIDECLIENT_Signature=44bf8fcd9f73bdd4c5525d38ad35ca1df73831ed
+GT_PROXY_MODE=old
+VO_BABAR_SW_DIR=/grid/fzk.de/mounts/nfs/software/babar
+_CONDOR_SCRATCH_DIR=/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978
+_CONDOR_ANCESTOR_2793198=2793210:1557171482:2488715420
+QTDIR=/usr/lib64/qt-3.3
+HAS_CVMFS_singularity_opensciencegrid_org=True
+_CONDOR_ANCESTOR_1174978=1174987:1557259163:1863448617
+OSG_WN_TMP=/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978
+QTINC=/usr/lib64/qt-3.3/include
+X509_CERT_DIR=/etc/grid-security/certificates
+CMS_VALIDATION_FRONTIER=0
+VO_CDF_DEFAULT_SE=gridka-dcache.fzk.de
+GLIDEIN_Max_Idle=600
+VO_BABAR_DEFAULT_SE=lcg-gridka-se.fzk.de
+GLEXEC_BIN=NONE
+GLIDEIN_REQUIRE_VOMS=False
+CONDOR_BIN_PATH=/bin
+USER=pcms68
+VO_BELLE_DEFAULT_SE=gridka-dcache.fzk.de
+_CHIRP_DELAYED_UPDATE_PREFIX=Chirp*
+MYPROXY_TCP_PORT_RANGE=20000,25000
+CMSSITE=T1_DE_KIT
+TEMP=/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978
+LD_LIBRARY_PATH=/opt/openmpi/lib:/opt/d-cache/dcap/lib:/opt/glite/lib:/opt/glite/lib64:/opt/globus/lib:/opt/lcg/lib:/opt/lcg/lib64:/opt/d-cache/dcap/lib64:/usr/lib64:/opt/classads/lib64/:/opt/c-ares/lib/
+VO_ENMR_EU_DEFAULT_SE=gridka-dcache.fzk.de
+CONDOR_PARENT_ID=c01-009-167:1174978:1557259159
+GLIDEIN_Entry_Name=CMSHTPC_T1_DE_KIT_arc-4
+OSG_SINGULARITY_IMAGE=/cvmfs/singularity.opensciencegrid.org/opensciencegrid/tensorflow:latest
+VO_DTEAM_SW_DIR=/grid/fzk.de/mounts/nfs/software/dteam/lcg2
+BATCH_SYSTEM=HTCondor
+LCG_LOCATION=/opt/lcg
+GLIDEIN_Name=gfactory_instance
+VO_CMS_SW_DIR=/cvmfs/cms.cern.ch/
+OSG_SINGULARITY_IMAGE_DEFAULT=/cvmfs/singularity.opensciencegrid.org/bbockelm/cms:rhel6
+ROCKS_ROOT=/opt/rocks
+CVMFS_oasis_opensciencegrid_org_TIMESTAMP=1552609251
+_CONDOR_CHIRP_CONFIG=/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/.chirp.config
+VO_CDF_SW_DIR=/grid/fzk.de/mounts/nfs/software/cdf
+GLOBUS_GSSAPI_MAX_TLS_PROTOCOL=0
+ATLAS_LOCAL_AREA=/sw/atlas/sl5/local
+GLIDEIN_Entry_Signature=27d1517c3332374e66971eec8fb3756081944cc7
+VO_LHCB_DEFAULT_SE=gridka-dcache.fzk.de
+VO_OPS_SW_DIR=/grid/fzk.de/mounts/nfs/software/ops/lcg2
+CONDOR_PROCD_ADDRESS_BASE=/tmp/home/condor/dir_2784593/glide_8QWaJ6/log/procd_address
+RUNTIME_CONFIG_DIR=/etc/arc/runtime
+OPENSSL_ALLOW_PROXY_CERTS=1
+ARC_LOCATION=/usr
+VO_ATLAS_DEFAULT_SE=atlassrm-fzk.gridka.de
+VO_GECLIPSE_DEFAULT_SE=gridka-dcache.fzk.de
+GLIDEIN_Site=KIT
+GLIDECLIENT_Name=CMSG-v1_0.main
+MAIL=/var/spool/mail/pcms68
+PATH=/tmp/home/condor/dir_2784593/glide_8QWaJ6/main/condor/libexec:/opt/gridengine/bin/lx-amd64:/opt/openmpi/bin:/usr/lib64/qt-3.3/bin:/opt/d-cache/srm/bin:/opt/d-cache/dcap/bin:/opt/edg/bin:/opt/glite/bin:/opt/globus/bin:/opt/lcg/bin:/sbin:/usr/sbin:/bin:/usr/bin:/opt/ganglia/bin:/opt/ganglia/sbin:/usr/java/latest/bin:/opt/rocks/bin:/opt/rocks/sbin:/opt/glite/bin:/opt/glite/sbin:/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978
+HOLD_GRACE_TIME=0
+USE_PSS=True
+HAS_CVMFS_oasis_opensciencegrid_org=True
+VO_CMS_DEFAULT_SE=cmssrm-kit.gridka.de
+CONDOR_CONFIG=/tmp/home/condor/dir_2784593/glide_8QWaJ6/condor_config
+VO_DTEAM_DEFAULT_SE=gridka-dcache.fzk.de
+VO_LHCB_PROXY_URL=http://lhcbsq1-fzk.gridka.de:3128
+EDG_LOCATION=/opt/edg
+INPUTRC=/etc/inputrc
+VO_BELLE_SW_DIR=/cvmfs/belle.cern.ch/sl6
+Dashboard_syncid=https://login.uscms.org//cmsconnect_khurtado_submit_d3c04723f859368c//12345.MetaID
+VO_AUGER_DEFAULT_SE=gridka-dcache.fzk.de
+PWD=/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978
+JAVA_HOME=/usr/java/latest
+_LMFILES_=/usr/share/Modules/modulefiles/rocks-openmpi
+SITE_GIIS_URL=giis-fzk.gridka.de
+X509_USER_CERT=/tmp/home/condor/dir_2784593/glide_8QWaJ6/hostcert.pem
+JOBFEATURES=/tmp/home/condor/dir_2784593/jobfeatures
+LANG=C
+_CONDOR_WRAPPER_ERROR_FILE=/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/.job_wrapper_failure
+VO_COMPASS_DEFAULT_SE=gridka-dcache.fzk.de
+VO_DECH_DEFAULT_SE=gridka-dcache.fzk.de
+MODULEPATH=/usr/share/Modules/modulefiles:/etc/modulefiles
+GLIDEIN_Country=DE
+GLIDEIN_Gatekeeper=arc-4-kit.gridka.de
+X509_VOMS_DIR=/etc/grid-security/vomsdir
+GLIDEIN_GlobusRSL=(queue=grid)(count=8)(memory=3000)(runtimeenvironment=ENV/GLITE)
+LOADEDMODULES=rocks-openmpi
+_CONDOR_SLOT=slot1_5
+GLIDEIN_Job_Max_Time=14400
+GLIDEIN_Tmp_Dir=/tmp/home/condor/dir_2784593/glide_8QWaJ6/tmp
+MYPROXY_SERVER=px-fzk.gridka.de
+OSG_SINGULARITY_PATH=/usr/bin/singularity
+GLIDEIN_CLAIM_WORKLIFE_DYNAMIC=cpus*(6*3600)
+GLIDEIN_Factory=CERN-Prod
+GLIDEIN_Proxy_URL=None
+GLIDEIN_GridType=nordugrid
+GLIDECLIENT_Group=main
+GLOBUS_GSSAPI_VHOST_CRED_OWNER=root
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+SINGULARITY_VALIDATION_TIME=.359635187
+GLIDEIN_Expose_Grid_Env=True
+Dashboard_Id=7
+_CONDOR_EXECUTE=/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute
+VO_LHCB_SW_DIR=/cvmfs/lhcb.cern.ch
+GLEXEC_LOCATION=/usr
+VO_ALICE_DEFAULT_SE=alice-tape-srm.gridka.de
+HAS_CVMFS_cms_cern_ch=True
+HOME=/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978
+GLITE_LOCATION_VAR=/opt/glite/var
+GLOBUS_GSSAPI_NAME_COMPATIBILITY=STRICT_RFC2818
+GLIDECLIENT_Group_Signature=8e5dc3c7ae52170e767cef8b57debbb530b9b99c
+SHLVL=8
+GLIDEIN_Max_Tail=600
+_CONDOR_MACHINE_AD=/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/.machine.ad
+GLOBUS_TCP_PORT_RANGE=20000,25000
+MACHINEFEATURES=/etc/machinefeatures
+java_options=-Xms128m -Xmx512m
+X509_USER_PROXY=/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/x509up_u24239
+Dashboard_taskid=cmsconnect_khurtado_submit_d3c04723f859368c
+GSI_AUTHZ_CONF=/dev/null
+SLOTS_LAYOUT=partitionable
+GLOBUS_GSSAPI_MIN_TLS_PROTOCOL=TLS1_VERSION
+CVMFS_oasis_opensciencegrid_org_REVISION=11415
+GLIDEIN_CMSSite=T1_DE_KIT
+MPIHOME=/opt/openmpi
+VO_AUGER_SW_DIR=/cvmfs/auger.egi.eu
+GLIDEIN_Signature=b870fd61148c70837bba0e3c802d385e47d70edb
+GLITE_ENV_SET=TRUE
+GLIDEIN_Schedd=schedd_glideins3@vocms0206.cern.ch
+VO_SW_DIR=/grid/fzk.de/mounts/nfs/software/
+VO_ENMR_EU_SW_DIR=/opt/d-grid/enmr
+LCG_GFAL_INFOSYS=bdii-fzk.gridka.de:2170
+JOB_ID=arc-4-kit.gridka.de_2314749.0_1557168200
+PYTHONPATH=/opt/lcg/lib64/python2.4/site-packages:/opt/lcg/lib64/python:/opt/glite/lib/python:/opt/glite/lib/python2.3/site-packages/amga
+TMP=/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978
+GLIDEIN_REQUIRED_OS=any
+GLIDEIN_Glexec_Use=OPTIONAL
+GPUDetection=No GPUs detected
+LOGNAME=pcms68
+CVS_RSH=ssh
+CVMFS_cms_cern_ch_REVISION=73210
+QTLIB=/usr/lib64/qt-3.3/lib
+HAS_SINGULARITY=1
+GLIDEIN_Monitoring_Enabled=False
+GRID_GLOBAL_JOBID=gsiftp://arc-4-kit.gridka.de:2811/jobs/K5PMDmpkxhun8LTVzn4uePCoABFKDmABFKDmcFPTDmABFKDmLz76lm
+GLIDEIN_ClusterId=859668
+GLIDEIN_ProcId=0
+MODULESHOME=/usr/share/Modules
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+GLOBUS_GSSAPI_BACKWARD_COMPATIBLE_MIC=true
+OMP_NUM_THREADS=1
+GLOBUS_GSSAPI_CIPHERS=HIGH
+_CONDOR_ANCESTOR_2793210=1174978:1557259158:2456225042
+_CONDOR_JOB_AD=/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978/.job.ad
+MEMORY_USAGE_METRIC=ifthenelse(ProportionalSetSizeKb=?=UNDEFINED,(ResidentSetSize +1023)/1024,(ProportionalSetSizeKb + 1023)/1024)
+OSG_SINGULARITY_AUTOLOAD=false
+VO_ATLAS_SW_DIR=/cvmfs/atlas.cern.ch/repo/sw
+CVMFS_singularity_opensciencegrid_org_REVISION=61710
+GLITE_LOCATION=/usr
+GLIDEIN_LOCAL_TMP_DIR=/tmp/glide_pcms68_a5elGd
+GLOBUS_GSSAPI_FORCE_TLS=false
+_CONDOR_JOB_IWD=/tmp/home/condor/dir_2784593/glide_8QWaJ6/execute/dir_1174978
+OSG_SINGULARITY_BIND_CVMFS=0
+VO_DECH_SW_DIR=/grid/fzk.de/mounts/nfs/software/dech
+NSLOTS=8
+SITE_NAME=FZK-LCG2
+VO_COMPASS_SW_DIR=/grid/fzk.de/mounts/nfs/software/compass/lcg2
+X509_USER_KEY=/tmp/home/condor/dir_2784593/glide_8QWaJ6/hostkey.pem
+G_BROKEN_FILENAMES=1
+OMPI_MCA_btl=tcp,self
+GLOBUS_GSSAPI_SERVER_CIPHER_ORDER=true
+CONDOR_PROCD_ADDRESS=/tmp/home/condor/dir_2784593/glide_8QWaJ6/log/procd_address
+_=/bin/env
+---------environment--------
+
+
+All done
+

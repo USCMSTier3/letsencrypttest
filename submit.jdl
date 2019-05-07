@@ -1,0 +1,27 @@
+Universe = vanilla 
+Executable = short.sh 
+Error = log/job.err.$(Cluster)-$(Process) 
+Output = log/job.out.$(Cluster)-$(Process) 
+Log = log/job.log.$(Cluster) 
++WantIOProxy=true
+
+request_memory = 1024
+#request_disk = 1 Gb
+request_cpus = 1
+
+#+DESIRED_Sites="T3_US_Colorado"
+#+DESIRED_Sites="T1_DE_KIT,T1_IT_CNAF,T1_UK_RAL,T2_ES_CIEMAT,T1_ES_PIC"
+# Use default mode, RHEL 6 via singularity
+Queue 2
+
+# RHEL 7 via singularity
++REQUIRED_OS = "rhel7"
+Queue 2
+
+# Customized image 
++SingularityImage = "/cvmfs/singularity.opensciencegrid.org/opensciencegrid/tensorflow:latest"
+Queue 2
+
+# Disable Singularity
++SingularityAutoLoad = False
+Queue 2

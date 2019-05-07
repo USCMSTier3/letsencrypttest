@@ -1,0 +1,731 @@
+current cwd: /srv
+Directory list
+Environment:
+{'HOLD_GRACE_TIME': '0', 'GLIDEIN_Expose_Grid_Env': 'True', 'VO_ARGO_DEFAULT_SE': 'storm-fe-archive.cr.cnaf.infn.it', 'USE_PSS': 'True', 'GLITE_ENV_SET': 'TRUE', '_CONDOR_JOB_PIDS': '', 'LCG_GFAL_INFOSYS': 'egee-bdii.cnaf.infn.it:2170', 'VO_OPS_SW_DIR': '/data/opssw', 'LSB_TRAPSIGS': 'trap # 15 10 12 2 1', 'SRM_PATH': '/usr/share/srm', 'OSG_MACHINE_GPUS': '0', 'OSG_LOCATION': '/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64', 'BSUB_BLOCK_EXEC_HOST': '', 'GLIDEIN_ClusterId': '801038', 'GLIDEIN_REQUIRED_OS': 'any', 'CVMFS_oasis_opensciencegrid_org_TIMESTAMP': '1552609251', 'CONDOR_PROCD_ADDRESS_BASE': '/home/pilcms010/home_cr008_705524118/CREAM705524118/glide_dWPEgu/log/procd_address', 'VO_CMS_DEFAULT_SE': 'storm-fe-cms.cr.cnaf.infn.it', 'CMS_GLIDEIN_VERSION': '18', 'SHELL': '/bin/bash', 'GLIDEIN_Gatekeeper': 'ce08-lcg.cr.cnaf.infn.it:8443/cream-lsf-cms_mcn', 'CVMFS_singularity_opensciencegrid_org_REVISION': '61710', 'CREAM_JOBID': 'https://ce08-lcg.cr.cnaf.infn.it:8443/CREAM705524118', 'GRID_ENV_LOCATION': '/usr/libexec', 'VO_VO_PADME_ORG_SW_DIR': '/cvmfs/padme.infn.it', 'LSB_UNIXGROUP_INT': 'pilcms', 'SLOTS_LAYOUT': 'partitionable', 'HISTSIZE': '1000', 'LS_EXEC_T': 'START', 'MANPATH': '/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr/share/man:/usr/share/lsf/9.1/man:/opt/glite/share/man:::/opt/puppetlabs/puppet/share/man', 'OSG_WN_TMP': '/tmp', 'LSB_EEXEC_REAL_GID': '', 'GLOBUS_GSSAPI_SERVER_CIPHER_ORDER': 'true', 'VO_CDF_DEFAULT_SE': 'storm-fe-archive.cr.cnaf.infn.it', 'VO_VIRGO_DEFAULT_SE': 'storm-fe-virgo.cr.cnaf.infn.it', 'LSB_JOBINDEX': '0', 'BATCH_SYSTEM': 'HTCondor', 'PYTHONPATH': '/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr/lib/python2.7/site-packages:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr/lib64/python2.7/site-packages', 'GLIDEIN_Tmp_Dir': '/home/pilcms010/home_cr008_705524118/CREAM705524118/glide_dWPEgu/tmp', 'OSG_SINGULARITY_PATH': '/bin/singularity', 'GLIDEIN_Site': 'CNAF', 'VO_VO_PADME_ORG_DEFAULT_SE': 'storm-fe-archive.cr.cnaf.infn.it', 'MYPROXY_SERVER': 'myproxy.cnaf.infn.it', 'CVMFS_oasis_opensciencegrid_org_REVISION': '11415', 'VO_PAMELA_SW_DIR': '/opt/exp_software/pamela', 'GLIDEIN_Monitoring_Enabled': 'False', 'GLIDEIN_Schedd': 'schedd_glideins9@vocms0206.cern.ch', 'VO_JUNO_DEFAULT_SE': 'storm-fe-archive.cr.cnaf.infn.it', 'LS_JOBPID': '94974', 'GLIDEIN_ResourceName': 'INFN-T1', 'LSB_JOBID': '37682782', '_CONDOR_JOB_AD': '/srv/.job.ad', 'VO_XENON_BIGGRID_NL_SW_DIR': '/opt/exp_software/xenon', 'OSG_SINGULARITY_IMAGE_DEFAULT': '/cvmfs/singularity.opensciencegrid.org/bbockelm/cms:rhel6', 'CE_ID': 'ce08-lcg.cr.cnaf.infn.it:8443/cream-lsf-cms_mcn', 'HOSTNAME': 'wn-205-10-13-02-a.cr.cnaf.infn.it', 'GLIDEIN_Max_Tail': '600', 'GLIDEIN_Entry_Signature': '24c40e18d6df3abbdae2b0ac9267b6b57826e454', 'LSB_MCPU_HOSTS': 'wn-205-10-13-02-a 8 ', 'LSB_JOBRES_PID': '94974', 'CMSSITE': 'T1_IT_CNAF', 'MAIL': '/var/spool/mail/pilcms010', 'GLIDECLIENT_Group': 'main', 'VO_KM3NET_ORG_DEFAULT_SE': 'storm-fe-archive.cr.cnaf.infn.it', 'CONDOR_CONFIG': '/home/pilcms010/home_cr008_705524118/CREAM705524118/glide_dWPEgu/condor_config', 'GLIDEIN_CMSSite': 'T1_IT_CNAF', 'GLIDEIN_Entry_Name': 'CMSHTPC_T1_IT_CNAF_ce08_mcore_el7', '_CONDOR_CHIRP_CONFIG': '/srv/.chirp.config', 'VO_DTEAM_DEFAULT_SE': 'storm-fe-archive.cr.cnaf.infn.it', '__copy_proxy_min_retry_wait': '60', 'LCG_LOCATION': '/usr', '_CONDOR_ANCESTOR_104945': '106134:1557259164:3013780324', 'MEMORY_USAGE_METRIC': 'ifthenelse(ProportionalSetSizeKb=?=UNDEFINED,(ResidentSetSize +1023)/1024,(ProportionalSetSizeKb + 1023)/1024)', 'VO_NA62_VO_GRIDPP_AC_UK_SW_DIR': '/cvmfs/na62.cern.ch', 'LSF_BINDIR': '/usr/share/lsf/9.1/linux2.6-glibc2.3-x86_64/bin', 'LSB_RES_GET_FANOUT_INFO': 'Y', 'GLIDEIN_CPUS': '8', 'USER': 'pilcms010', 'LSB_EEXEC_REAL_UID': '', 'GLOBUS_LOCATION': '/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr', 'VO_BIOMED_DEFAULT_SE': 'storm-se-01.ba.infn.it', 'LSB_DJOB_NUMPROC': '8', 'GLIDEIN_SEs': 'storm-fe-cms.cr.cnaf.infn.it', 'VO_RDFA_DEFAULT_SE': 'storm-fe-archive.cr.cnaf.infn.it', 'VO_ALICE_DEFAULT_SE': 'storm-fe-alice.cr.cnaf.infn.it', 'VO_XENON_BIGGRID_NL_DEFAULT_SE': 'fake-se.cr.cnaf.infn.it', 'VO_DTEAM_SW_DIR': '/data/dteam', 'GLIDEIN_CLAIM_WORKLIFE_DYNAMIC': 'cpus*(6*3600)', 'VO_OPS_DEFAULT_SE': 'storm-fe-archive.cr.cnaf.infn.it', 'GLEXEC_BIN': 'NONE', 'OSG_SINGULARITY_BIND_CVMFS': '1', 'LSB_MAX_NUM_PROCESSORS': '8', 'VO_ARGO_SW_DIR': '/opt/exp_software/argo', '_CONDOR_JOB_IWD': '/srv', 'GT_PROXY_MODE': 'rfc', 'GLIDEIN_Name': 'gfactory_instance', 'VO_CMS_SW_DIR': '/cvmfs/cms.cern.ch', 'VO_LHCB_DEFAULT_SE': 'storm-fe-lhcb.cr.cnaf.infn.it', 'GLIDEIN_ProcId': '2', 'java_options': '-Xms128m -Xmx512m', 'QTLIB': '/usr/lib64/qt-3.3/lib', 'HAS_CVMFS_cms_cern_ch': 'True', 'HOME': '/srv', '_CONDOR_SLOT': 'slot1_5', 'Dashboard_Id': '3', 'LSF_BIN_PATH': '/usr/share/lsf/9.1/linux2.6-glibc2.3-x86_64/bin', 'GLITE_WMS_LOG_DESTINATION': 'ce08-lcg.cr.cnaf.infn.it', 'LSB_OUTDIR': '/home/pilcms010', 'OSG_SINGULARITY_BIND_GPU_LIBS': '0', 'X509_VOMS_DIR': '/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/etc/grid-security/vomsdir', 'HAS_CVMFS_oasis_opensciencegrid_org': 'True', 'TMPDIR': '/srv', 'PERL5LIB': '/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr/share/perl5/vendor_perl:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr/share/perl5:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr/lib64/perl5/vendor_perl:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr/lib64/perl5', 'SINGULARITY_NAME': 'a5ea92e96606f969792af11d25b60582564a835c671f604123cb724414cedd', 'GLIDEIN_Job_Max_Time': '14400', 'VO_BIOMED_SW_DIR': '/opt/exp_software/biomed', 'LSB_SUB_USER': 'pilcms010', 'OMP_NUM_THREADS': '1', 'CONDOR_PROCD_ADDRESS': '/home/pilcms010/home_cr008_705524118/CREAM705524118/glide_dWPEgu/log/procd_address', 'LSB_JOBEXIT_STAT': '0', 'VO_RDFA_SW_DIR': '/opt/exp_software/rdfa', 'VO_VO_CTA_IN2P3_FR_SW_DIR': '/opt/exp_software/cta', 'OSG_SINGULARITY_VERSION': '2.6.1-dist', 'VO_ALICE_SW_DIR': '/opt/exp_software/alice', 'VO_VO_COMPASS_CERN_CH_SW_DIR': '/cvmfs/compass', 'VO_BELLE_SW_DIR': '/cvmfs/belle.cern.ch/sl6', 'LSB_EFFECTIVE_RSRCREQ': 'select[(mcore==1) && (type == local)] order[r15s:pg] span[ptile=8] ', 'VO_BELLE_DEFAULT_SE': 'storm-fe-archive.cr.cnaf.infn.it', 'VO_PAMELA_DEFAULT_SE': 'storm-fe-archive.cr.cnaf.infn.it', 'GFAL_PLUGIN_DIR': '/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr/lib64/gfal2-plugins/', '__delegationProxyCertSandboxPathTmp': '/tmp/1550763202_406447_16406089874362705524118', 'GLITE_WMS_SEQUENCE_CODE': '', 'LSF_CONF_PATH': '/usr/share/lsf/conf', '__LSF_JOB_TMPDIR__': '/tmp/37682782.tmpdir', 'VO_VO_CTA_IN2P3_FR_DEFAULT_SE': 'storm-fe-archive.cr.cnaf.infn.it', '_CONDOR_EXECUTE': '/home/pilcms010/home_cr008_705524118/CREAM705524118/glide_dWPEgu/execute', 'OSG_SINGULARITY_OUTSIDE_PWD': '/home/pilcms010/home_cr008_705524118/CREAM705524118/glide_dWPEgu/execute/dir_106134', 'QTDIR': '/usr/lib64/qt-3.3', 'GLIDEIN_LOCAL_TMP_DIR': '/tmp/glide_pilcms010_ihf1W4', 'LD_LIBRARY_PATH': '/srv/condor/lib:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/lib64:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/lib:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr/lib64:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr/lib:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr/lib64/dcap:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr/lib64/lcgdm', 'CVMFS_cms_cern_ch_REVISION': '73210', 'GLIDEIN_GlobusRSL': 'WholeNodes = False; HostNumber = 1; CPUNumber = 8', 'LANG': 'C', 'LSF_SERVERDIR': '/usr/share/lsf/9.1/linux2.6-glibc2.3-x86_64/etc', 'LSB_EXEC_CLUSTER': 't1lsf913', 'GLOBUS_GSSAPI_FORCE_TLS': 'false', 'QTINC': '/usr/lib64/qt-3.3/include', 'GLIDEIN_REQUIRE_GLEXEC_USE': 'False', 'LSB_DJOB_RANKFILE': '/data/1557168074.37682782.hostfile', '_CHIRP_DELAYED_UPDATE_PREFIX': 'Chirp*', 'GLITE_LOCATION_VAR': '/var', 'X509_USER_PROXY': '/srv/x509up_u24239', 'GLOBUS_GSSAPI_CIPHERS': 'HIGH', '_': '/bin/env', 'OSG_SINGULARITY_IMAGE': '/cvmfs/singularity.opensciencegrid.org/bbockelm/cms:rhel7', 'LSB_QUEUE': 'cms_mcn', 'LSB_JOBRES_CALLBACK': '42948@wn-205-10-13-02-a', 'LSF_ENVDIR': '/usr/share/lsf/conf', 'LSB_CHKFILENAME': '/data/1557168074.37682782', '__delegationTimeSlot': '3600', 'GLIDECLIENT_Signature': '44bf8fcd9f73bdd4c5525d38ad35ca1df73831ed', 'LSB_SUB_HOST': 'ce08-lcg', 'Dashboard_taskid': 'cmsconnect_khurtado_submit_d3c04723f859368c', 'VO_LHCB_SW_DIR': '/cvmfs/lhcb.cern.ch', 'LS_SUBCWD': '/home/pilcms010/', '_CONDOR_ANCESTOR_106134': '106490:1557259169:126417112', 'VO_AMS02_CERN_CH_SW_DIR': '/opt/exp_software/ams', 'GSI_AUTHZ_CONF': '/dev/null', 'LSB_CG_MEMLIMIT': '0x6acfc0000', 'JOB_TERMINATE_INTERVAL': '10', 'VO_CDF_SW_DIR': '/opt/exp_software/cdf', '_CONDOR_WRAPPER_ERROR_FILE': '/home/pilcms010/home_cr008_705524118/CREAM705524118/glide_dWPEgu/execute/dir_106134/.job_wrapper_failure', 'LSF_LOGDIR': '/tmp', 'X509_CERT_DIR': '/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/etc/grid-security/certificates', 'LSF_CGROUP_TOPDIR_KEY': 't1lsf913', 'GLIDEIN_REQUIRE_VOMS': 'False', '_CONDOR_ANCESTOR_104913': '104945:1557171728:1702402339', 'QT_GRAPHICSSYSTEM_CHECKED': '1', 'LESSOPEN': '||/usr/bin/lesspipe.sh %s', 'LSB_JOB_EXECUSER': 'pilcms010', 'OSG_SINGULARITY_AUTOLOAD': '1', 'LSB_SUB_RES_REQ': 'select [mcore==1] span[ptile=8]', 'LSB_HOSTS': 'wn-205-10-13-02-a wn-205-10-13-02-a wn-205-10-13-02-a wn-205-10-13-02-a wn-205-10-13-02-a wn-205-10-13-02-a wn-205-10-13-02-a wn-205-10-13-02-a', 'VO_KM3NET_ORG_SW_DIR': '/opt/exp_software/km3', 'GLITE_WMS_JOBID': 'N/A', 'EDG_WL_NOSETPGRP': '1', 'VO_AMS02_CERN_CH_DEFAULT_SE': 'storm02.cr.cnaf.infn.it', 'SINGULARITY_CONTAINER': 'a5ea92e96606f969792af11d25b60582564a835c671f604123cb724414cedd', 'LSB_EXIT_PRE_ABORT': '99', 'LSFUSER': 'pilcms010', 'Dashboard_syncid': 'https://login.uscms.org//cmsconnect_khurtado_submit_d3c04723f859368c//12345.MetaID', 'LSB_JOBFILENAME': '/data/1557168074.37682782', 'VO_VO_COMPASS_CERN_CH_DEFAULT_SE': 'fake-se.cr.cnaf.infn.it', 'VO_GLAST_ORG_SW_DIR': '/cvmfs/glast.egi.eu', 'GLIDEIN_Country': 'IT', 'LSB_AFFINITY_HOSTFILE': '/data/1557168074.37682782.hostAffinityFile', 'VO_MAGIC_DEFAULT_SE': 'storm-fe-archive.cr.cnaf.infn.it', 'VO_AUGER_SW_DIR': '/opt/exp_software/auger', 'VO_ATLAS_SW_DIR': '/cvmfs/atlas.cern.ch/repo/sw', 'VO_ICARUS_EXP_ORG_SW_DIR': '/opt/exp_software/icarus', 'GLIDEIN_Glexec_Use': 'OPTIONAL', 'VO_AUGER_DEFAULT_SE': 'storm02.cr.cnaf.infn.it', 'VO_INFNGRID_SW_DIR': '/opt/exp_software/infngrid', 'GLIDEIN_Factory': 'CERN-Prod', 'GLIDEIN_Proxy_URL': 'None', 'VO_MAGIC_SW_DIR': '/opt/exp_software/magic', 'GPUDetection': 'No GPUs detected', 'LSB_XFER_OP': '', 'HOSTTYPE': 'X86_64', 'GLIDEIN_Signature': 'b870fd61148c70837bba0e3c802d385e47d70edb', 'VO_NA62_VO_GRIDPP_AC_UK_DEFAULT_SE': 'fake-se.cr.cnaf.infn.it', 'LOGNAME': 'pilcms010', 'LSF_LIM_API_NTRIES': '1', 'LSB_JOB_STARTER': '/usr/share/lsf/conf/scripts/jobstarter.sh', 'PATH': '/srv/condor/libexec:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr/bin:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr/sbin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:/srv', 'VOMS_USERCONF': '/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/etc/vomses', 'CMS_VALIDATION_FRONTIER': '0', 'GFAL_CONFIG_DIR': '/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/etc/gfal2.d/', 'REQUIRED_OS': 'rhel7', 'CONDOR_PARENT_ID': 'wn-205-10-13-02-a:106134:1557259166', 'LSB_EXEC_HOSTTYPE': 'X86_64', 'TZ': 'UTC', 'HAS_CVMFS_singularity_opensciencegrid_org': 'True', 'LSB_DJOB_HOSTFILE': '/data/1557168074.37682782.hostfile', 'VO_JUNO_SW_DIR': '/opt/exp_software/juno', '__delegationProxyCertSandboxPath': 'gsiftp://ce08-lcg.cr.cnaf.infn.it/var/cream_sandbox/pilcms/CN_cmspilot02_vocms080_cern_ch_OU_computers_DC_cern_DC_ch_cms_Role_pilot_Capability_NULL_pilcms010/proxy/1550763202_406447_16406089874362', 'GLOBUS_GSSAPI_NAME_COMPATIBILITY': 'HYBRID', 'GLIDEIN_Max_Idle': '600', 'LSB_ACCT_FILE': '/tmp/37682782.tmpdir/.1557168074.37682782.acct', 'LSF_JOB_TIMESTAMP_VALUE': '1557171651', 'GLIDECLIENT_Name': 'CMSG-v1_0.main', 'LSB_OUTPUTFILE': '/dev/null', 'SBD_KRB5CCNAME_VAL': '', 'VO_ICARUS_EXP_ORG_DEFAULT_SE': 'storm-fe-archive.cr.cnaf.infn.it', 'SITE_NAME': 'INFN-T1', 'GRID_JOBID': 'N/A', 'LSB_BATCH_JID': '37682782', '_CONDOR_MACHINE_AD': '/srv/.machine.ad', 'VO_VIRGO_SW_DIR': '/opt/exp_software/virgo', 'GLITE_WMS_LOCATION': '/usr', 'GLIDECLIENT_Group_Signature': '8e5dc3c7ae52170e767cef8b57debbb530b9b99c', 'OSG_SINGULARITY_REEXEC': '1', 'GLITE_LOCATION': '/usr', 'Dashboard_monitorid': 'MetaID_https://login.uscms.org/78c87f8f593495fb/MetaID', 'LSB_JOBNAME': 'cr008_705524118', 'VO_INFNGRID_DEFAULT_SE': 'storm-fe-archive.cr.cnaf.infn.it', 'GLIDEIN_GridType': 'cream', 'VO_GLAST_ORG_DEFAULT_SE': 'storm-fe-archive.cr.cnaf.infn.it', 'HISTCONTROL': 'ignoredups', 'SHLVL': '8', 'PWD': '/srv', 'LS_EXECCWD': '/home/pilcms010/', 'GRIDMAP': '/home/pilcms010/home_cr008_705524118/CREAM705524118/glide_dWPEgu/grid-mapfile', '_CONDOR_SCRATCH_DIR': '/srv', 'VO_ATLAS_DEFAULT_SE': 'storm-fe-archive.cr.cnaf.infn.it', 'HAS_SINGULARITY': '1', 'LSF_LIBDIR': '/usr/share/lsf/9.1/linux2.6-glibc2.3-x86_64/lib', 'BINARY_TYPE_HPC': ''}
+Start time: Tue May  7 19:59:32 UTC 2019
+Job is running on node: wn-205-10-13-02-a.cr.cnaf.infn.it
+Job running as user: uid=5817(pilcms010) gid=2060(pilcms) groups=2060(pilcms),2003(cms)
+Job is running in directory: /srv
+SO version
+\S
+Kernel \r on an \m
+
+CentOS Linux release 7.6.1810 (Core) 
+CVMFS->local
+lrwxrwxrwx 1 glexec ssh_keys 10 Sep 19  2017 /cvmfs/cms.cern.ch/SITECONF/local -> T1_IT_CNAF
+singularity version
+singularity version 3.0.2-1.3.osgup.el7
+
+
+
+-----------XRootD tests-------------
+xrdcopy location: /cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr/bin/xrdcopy
+@@@First test in debug mode@@@
+Tue May 7 19:59:34 UTC 2019 xrdcopy -f root://hepxrd01.colorado.edu:1094//store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root
+[2019-05-07 19:59:34.741504 +0000][Debug  ][Utility           ] CopyProcess: 2 jobs to prepare
+[2019-05-07 19:59:34.741941 +0000][Debug  ][Utility           ] Creating a classic copy job, from root://hepxrd01.colorado.edu:1094//store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root to file://localhost/srv/TestColorado.root
+[2019-05-07 19:59:34.741993 +0000][Debug  ][Utility           ] Monitor library name not set. No monitoring
+[2019-05-07 19:59:34.742088 +0000][Debug  ][Poller            ] Available pollers: built-in
+[2019-05-07 19:59:34.742119 +0000][Debug  ][Poller            ] Attempting to create a poller according to preference: built-in
+[2019-05-07 19:59:34.742157 +0000][Debug  ][Poller            ] Creating poller: built-in
+[2019-05-07 19:59:34.742189 +0000][Debug  ][Poller            ] Creating and starting the built-in poller...
+[2019-05-07 19:59:34.742368 +0000][Debug  ][Poller            ] Using 1 poller threads
+[2019-05-07 19:59:34.742405 +0000][Debug  ][TaskMgr           ] Starting the task manager...
+[2019-05-07 19:59:34.742459 +0000][Debug  ][TaskMgr           ] Task manager started
+[2019-05-07 19:59:34.742482 +0000][Debug  ][JobMgr            ] Starting the job manager...
+[2019-05-07 19:59:34.742576 +0000][Debug  ][JobMgr            ] Job manager started, 3 workers
+[2019-05-07 19:59:34.742608 +0000][Debug  ][TaskMgr           ] Registering task: "FileTimer task" to be run at: [2019-05-07 19:59:34 +0000]
+[2019-05-07 19:59:34.742659 +0000][Debug  ][Utility           ] Opening root://hepxrd01.colorado.edu:1094//store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root for reading
+[2019-05-07 19:59:34.742747 +0000][Debug  ][File              ] [0xded5b0@root://hepxrd01.colorado.edu:1094//store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root] Sending an open command
+[2019-05-07 19:59:34.742872 +0000][Debug  ][PostMaster        ] Creating new channel to: hepxrd01.colorado.edu:1094 1 stream(s)
+[2019-05-07 19:59:34.742921 +0000][Debug  ][PostMaster        ] [hepxrd01.colorado.edu:1094 #0] Stream parameters: Network Stack: IPAuto, Connection Window: 120, ConnectionRetry: 5, Stream Error Window: 1800
+[2019-05-07 19:59:34.743646 +0000][Debug  ][TaskMgr           ] Registering task: "TickGeneratorTask for: hepxrd01.colorado.edu:1094" to be run at: [2019-05-07 19:59:49 +0000]
+[2019-05-07 19:59:34.743704 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] MsgHandler created: 0xdf2d40 (message: kXR_open (file: /store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root, mode: 00, flags: kXR_open_read kXR_async kXR_retstat ) ).
+[2019-05-07 19:59:34.744371 +0000][Debug  ][PostMaster        ] [hepxrd01.colorado.edu:1094] Found 1 address(es): [::ffff:192.12.238.148]:1094
+[2019-05-07 19:59:34.744413 +0000][Debug  ][AsyncSock         ] [hepxrd01.colorado.edu:1094 #0.0] Attempting connection to [::ffff:192.12.238.148]:1094
+[2019-05-07 19:59:34.744452 +0000][Debug  ][Poller            ] Adding socket 0xdf28c0 to the poller
+[2019-05-07 19:59:34.890800 +0000][Debug  ][AsyncSock         ] [hepxrd01.colorado.edu:1094 #0.0] Async connection call returned
+[2019-05-07 19:59:34.890948 +0000][Debug  ][XRootDTransport   ] [hepxrd01.colorado.edu:1094 #0.0] Sending out the initial hand shake + kXR_protocol
+[2019-05-07 19:59:35.194277 +0000][Debug  ][XRootDTransport   ] [hepxrd01.colorado.edu:1094 #0.0] Got the server hand shake response (type: server [], protocol version 310)
+[2019-05-07 19:59:35.194356 +0000][Debug  ][XRootDTransport   ] [hepxrd01.colorado.edu:1094 #0.0] kXR_protocol successful (type: server [], protocol version 310)
+[2019-05-07 19:59:35.195902 +0000][Debug  ][XRootDTransport   ] [hepxrd01.colorado.edu:1094 #0.0] Sending out kXR_login request, username: pilcms01, cgi: ?xrd.cc=it&xrd.tz=0&xrd.appname=xrdcp&xrd.info=&xrd.hostname=wn-205-10-13-02-a.cr.cnaf.infn.it&xrd.rn=v4.9.1, dual-stack: false, private IPv4: false, private IPv6: false
+[2019-05-07 19:59:35.341891 +0000][Debug  ][XRootDTransport   ] [hepxrd01.colorado.edu:1094 #0.0] Logged in, session: 26000000b85200006000000032000000
+[2019-05-07 19:59:35.341933 +0000][Debug  ][XRootDTransport   ] [hepxrd01.colorado.edu:1094 #0.0] Authentication is required: &P=gsi,v:10300,c:ssl,ca:70d35895.0|d690e530.0
+[2019-05-07 19:59:35.341943 +0000][Debug  ][XRootDTransport   ] [hepxrd01.colorado.edu:1094 #0.0] Sending authentication data
+[2019-05-07 19:59:35.718275 +0000][Debug  ][XRootDTransport   ] [hepxrd01.colorado.edu:1094 #0.0] Trying to authenticate using gsi
+[2019-05-07 19:59:36.005666 +0000][Debug  ][XRootDTransport   ] [hepxrd01.colorado.edu:1094 #0.0] Sending more authentication data for gsi
+[2019-05-07 19:59:36.157506 +0000][Debug  ][XRootDTransport   ] [hepxrd01.colorado.edu:1094 #0.0] Authenticated with gsi.
+[2019-05-07 19:59:36.157577 +0000][Debug  ][PostMaster        ] [hepxrd01.colorado.edu:1094 #0] Stream 0 connected.
+[2019-05-07 19:59:36.157650 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] Moving MsgHandler: 0xdf2d40 (message: kXR_open (file: /store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root, mode: 00, flags: kXR_open_read kXR_async kXR_retstat ) ) from out-queu to in-queue.
+[2019-05-07 19:59:36.306215 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] Calling MsgHandler: 0xdf2d40 (message: kXR_open (file: /store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root, mode: 00, flags: kXR_open_read kXR_async kXR_retstat ) ) with status: [SUCCESS] .
+[2019-05-07 19:59:36.306309 +0000][Debug  ][File              ] [0xded5b0@root://hepxrd01.colorado.edu:1094//store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root] Open has returned with status [SUCCESS] 
+[2019-05-07 19:59:36.306320 +0000][Debug  ][File              ] [0xded5b0@root://hepxrd01.colorado.edu:1094//store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root] successfully opened at hepxrd01.colorado.edu:1094, handle: 0x0, session id: 1
+[2019-05-07 19:59:36.306349 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] Destroying MsgHandler: 0xdf2d40.
+[2019-05-07 19:59:36.306437 +0000][Debug  ][Utility           ] Opening file://localhost/srv/TestColorado.root?oss.asize=240461986 for writing
+[2019-05-07 19:59:36.306523 +0000][Debug  ][File              ] [0xdf2d40@file://localhost/srv/TestColorado.root?oss.asize=240461986] Sending an open command
+[2019-05-07 19:59:36.306759 +0000][Debug  ][File              ] [0xdf2d40@file://localhost/srv/TestColorado.root?oss.asize=240461986] Open has returned with status [SUCCESS] 
+[2019-05-07 19:59:36.306773 +0000][Debug  ][File              ] [0xdf2d40@file://localhost/srv/TestColorado.root?oss.asize=240461986] successfully opened at localhost, handle: 0x12, session id: 1
+[2019-05-07 19:59:36.306840 +0000][Debug  ][File              ] [0xded5b0@root://hepxrd01.colorado.edu:1094//store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root] Sending a read command for handle 0x0 to hepxrd01.colorado.edu:1094
+[2019-05-07 19:59:36.306880 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] MsgHandler created: 0xdf38a0 (message: kXR_read (handle: 0x00000000, offset: 0, size: 16777216) ).
+[2019-05-07 19:59:36.306923 +0000][Debug  ][File              ] [0xded5b0@root://hepxrd01.colorado.edu:1094//store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root] Sending a read command for handle 0x0 to hepxrd01.colorado.edu:1094
+[2019-05-07 19:59:36.306941 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] Moving MsgHandler: 0xdf38a0 (message: kXR_read (handle: 0x00000000, offset: 0, size: 16777216) ) from out-queu to in-queue.
+[2019-05-07 19:59:36.306944 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] MsgHandler created: 0xdf4000 (message: kXR_read (handle: 0x00000000, offset: 16777216, size: 16777216) ).
+[2019-05-07 19:59:36.306972 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] Moving MsgHandler: 0xdf4000 (message: kXR_read (handle: 0x00000000, offset: 16777216, size: 16777216) ) from out-queu to in-queue.
+[2019-05-07 19:59:36.306981 +0000][Debug  ][File              ] [0xded5b0@root://hepxrd01.colorado.edu:1094//store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root] Sending a read command for handle 0x0 to hepxrd01.colorado.edu:1094
+[2019-05-07 19:59:36.306995 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] MsgHandler created: 0xdf4240 (message: kXR_read (handle: 0x00000000, offset: 33554432, size: 16777216) ).
+[2019-05-07 19:59:36.307013 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] Moving MsgHandler: 0xdf4240 (message: kXR_read (handle: 0x00000000, offset: 33554432, size: 16777216) ) from out-queu to in-queue.
+[2019-05-07 19:59:36.307014 +0000][Debug  ][File              ] [0xded5b0@root://hepxrd01.colorado.edu:1094//store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root] Sending a read command for handle 0x0 to hepxrd01.colorado.edu:1094
+[2019-05-07 19:59:36.307041 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] MsgHandler created: 0xdf47e0 (message: kXR_read (handle: 0x00000000, offset: 50331648, size: 16777216) ).
+[2019-05-07 19:59:36.307252 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] Moving MsgHandler: 0xdf47e0 (message: kXR_read (handle: 0x00000000, offset: 50331648, size: 16777216) ) from out-queu to in-queue.
+[2019-05-07 20:00:34.401092 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] Calling MsgHandler: 0xdf38a0 (message: kXR_read (handle: 0x00000000, offset: 0, size: 16777216) ) with status: [SUCCESS] .
+[2019-05-07 20:00:34.401160 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] Destroying MsgHandler: 0xdf38a0.
+[2019-05-07 20:00:34.401208 +0000][Debug  ][File              ] [0xdf2d40@file://localhost/srv/TestColorado.root?oss.asize=240461986] Sending a write command for handle 0x12 to localhost
+[16MB/229.3MB][  6%][===>                                              ][273.1kB/s]  [2019-05-07 20:00:34.401450 +0000][Debug  ][File              ] [0xded5b0@root://hepxrd01.colorado.edu:1094//store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root] Sending a read command for handle 0x0 to hepxrd01.colorado.edu:1094
+[2019-05-07 20:00:34.401478 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] MsgHandler created: 0xdf5f00 (message: kXR_read (handle: 0x00000000, offset: 67108864, size: 16777216) ).
+[2019-05-07 20:00:34.401590 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] Moving MsgHandler: 0xdf5f00 (message: kXR_read (handle: 0x00000000, offset: 67108864, size: 16777216) ) from out-queu to in-queue.
+[2019-05-07 20:00:35.491739 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] Calling MsgHandler: 0xdf4000 (message: kXR_read (handle: 0x00000000, offset: 16777216, size: 16777216) ) with status: [SUCCESS] .
+[2019-05-07 20:00:35.491814 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] Destroying MsgHandler: 0xdf4000.
+[2019-05-07 20:00:35.491868 +0000][Debug  ][File              ] [0xdf2d40@file://localhost/srv/TestColorado.root?oss.asize=240461986] Sending a write command for handle 0x12 to localhost
+[32MB/229.3MB][ 13%][======>                                           ][537.2kB/s]  [2019-05-07 20:00:35.492123 +0000][Debug  ][File              ] [0xded5b0@root://hepxrd01.colorado.edu:1094//store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root] Sending a read command for handle 0x0 to hepxrd01.colorado.edu:1094
+[2019-05-07 20:00:35.492146 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] MsgHandler created: 0xdf61b0 (message: kXR_read (handle: 0x00000000, offset: 83886080, size: 16777216) ).
+[2019-05-07 20:00:35.492219 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] Moving MsgHandler: 0xdf61b0 (message: kXR_read (handle: 0x00000000, offset: 83886080, size: 16777216) ) from out-queu to in-queue.
+[2019-05-07 20:00:36.293430 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] Calling MsgHandler: 0xdf4240 (message: kXR_read (handle: 0x00000000, offset: 33554432, size: 16777216) ) with status: [SUCCESS] .
+[2019-05-07 20:00:36.293507 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] Destroying MsgHandler: 0xdf4240.
+[2019-05-07 20:00:36.293686 +0000][Debug  ][File              ] [0xdf2d40@file://localhost/srv/TestColorado.root?oss.asize=240461986] Sending a write command for handle 0x12 to localhost
+[48MB/229.3MB][ 20%][==========>                                       ][792.8kB/s]  [2019-05-07 20:00:36.293866 +0000][Debug  ][File              ] [0xded5b0@root://hepxrd01.colorado.edu:1094//store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root] Sending a read command for handle 0x0 to hepxrd01.colorado.edu:1094
+[2019-05-07 20:00:36.293890 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] MsgHandler created: 0xdf4270 (message: kXR_read (handle: 0x00000000, offset: 100663296, size: 16777216) ).
+[2019-05-07 20:00:36.294006 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] Moving MsgHandler: 0xdf4270 (message: kXR_read (handle: 0x00000000, offset: 100663296, size: 16777216) ) from out-queu to in-queue.
+[2019-05-07 20:00:37.131367 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] Calling MsgHandler: 0xdf47e0 (message: kXR_read (handle: 0x00000000, offset: 50331648, size: 16777216) ) with status: [SUCCESS] .
+[2019-05-07 20:00:37.131446 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] Destroying MsgHandler: 0xdf47e0.
+[2019-05-07 20:00:37.131477 +0000][Debug  ][File              ] [0xdf2d40@file://localhost/srv/TestColorado.root?oss.asize=240461986] Sending a write command for handle 0x12 to localhost
+[64MB/229.3MB][ 27%][=============>                                    ][1.016MB/s]  [2019-05-07 20:00:37.131613 +0000][Debug  ][File              ] [0xded5b0@root://hepxrd01.colorado.edu:1094//store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root] Sending a read command for handle 0x0 to hepxrd01.colorado.edu:1094
+[2019-05-07 20:00:37.131640 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] MsgHandler created: 0xdf4710 (message: kXR_read (handle: 0x00000000, offset: 117440512, size: 16777216) ).
+[2019-05-07 20:00:37.131814 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] Moving MsgHandler: 0xdf4710 (message: kXR_read (handle: 0x00000000, offset: 117440512, size: 16777216) ) from out-queu to in-queue.
+[2019-05-07 20:03:16.200951 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] Calling MsgHandler: 0xdf5f00 (message: kXR_read (handle: 0x00000000, offset: 67108864, size: 16777216) ) with status: [SUCCESS] .
+[2019-05-07 20:03:16.201013 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] Destroying MsgHandler: 0xdf5f00.
+[2019-05-07 20:03:16.203409 +0000][Debug  ][File              ] [0xdf2d40@file://localhost/srv/TestColorado.root?oss.asize=240461986] Sending a write command for handle 0x12 to localhost
+[80MB/229.3MB][ 34%][=================>                                ][369kB/s]  [2019-05-07 20:03:16.203614 +0000][Debug  ][File              ] [0xded5b0@root://hepxrd01.colorado.edu:1094//store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root] Sending a read command for handle 0x0 to hepxrd01.colorado.edu:1094
+[2019-05-07 20:03:16.203645 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] MsgHandler created: 0xdf5ea0 (message: kXR_read (handle: 0x00000000, offset: 134217728, size: 16777216) ).
+[2019-05-07 20:03:16.203772 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] Moving MsgHandler: 0xdf5ea0 (message: kXR_read (handle: 0x00000000, offset: 134217728, size: 16777216) ) from out-queu to in-queue.
+[2019-05-07 20:03:18.721727 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] Calling MsgHandler: 0xdf61b0 (message: kXR_read (handle: 0x00000000, offset: 83886080, size: 16777216) ) with status: [SUCCESS] .
+[2019-05-07 20:03:18.721807 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] Destroying MsgHandler: 0xdf61b0.
+[2019-05-07 20:03:18.724568 +0000][Debug  ][File              ] [0xdf2d40@file://localhost/srv/TestColorado.root?oss.asize=240461986] Sending a write command for handle 0x12 to localhost
+[96MB/229.3MB][ 41%][====================>                             ][438.9kB/s]  [2019-05-07 20:03:18.724722 +0000][Debug  ][File              ] [0xded5b0@root://hepxrd01.colorado.edu:1094//store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root] Sending a read command for handle 0x0 to hepxrd01.colorado.edu:1094
+[2019-05-07 20:03:18.724750 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] MsgHandler created: 0xdf61b0 (message: kXR_read (handle: 0x00000000, offset: 150994944, size: 16777216) ).
+[2019-05-07 20:03:18.724851 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] Moving MsgHandler: 0xdf61b0 (message: kXR_read (handle: 0x00000000, offset: 150994944, size: 16777216) ) from out-queu to in-queue.
+[2019-05-07 20:03:19.159430 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] Calling MsgHandler: 0xdf4270 (message: kXR_read (handle: 0x00000000, offset: 100663296, size: 16777216) ) with status: [SUCCESS] .
+[2019-05-07 20:03:19.159487 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] Destroying MsgHandler: 0xdf4270.
+[2019-05-07 20:03:19.162532 +0000][Debug  ][File              ] [0xdf2d40@file://localhost/srv/TestColorado.root?oss.asize=240461986] Sending a write command for handle 0x12 to localhost
+[112MB/229.3MB][ 48%][========================>                         ][509.7kB/s]  [2019-05-07 20:03:19.162788 +0000][Debug  ][File              ] [0xded5b0@root://hepxrd01.colorado.edu:1094//store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root] Sending a read command for handle 0x0 to hepxrd01.colorado.edu:1094
+[2019-05-07 20:03:19.162848 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] MsgHandler created: 0xdf4270 (message: kXR_read (handle: 0x00000000, offset: 167772160, size: 16777216) ).
+[2019-05-07 20:03:19.163077 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] Moving MsgHandler: 0xdf4270 (message: kXR_read (handle: 0x00000000, offset: 167772160, size: 16777216) ) from out-queu to in-queue.
+[2019-05-07 20:03:19.596734 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] Calling MsgHandler: 0xdf4710 (message: kXR_read (handle: 0x00000000, offset: 117440512, size: 16777216) ) with status: [SUCCESS] .
+[2019-05-07 20:03:19.596805 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] Destroying MsgHandler: 0xdf4710.
+[2019-05-07 20:03:19.599254 +0000][Debug  ][File              ] [0xdf2d40@file://localhost/srv/TestColorado.root?oss.asize=240461986] Sending a write command for handle 0x12 to localhost
+[2019-05-07 20:03:19.599324 +0000][Debug  ][File              ] [0xded5b0@root://hepxrd01.colorado.edu:1094//store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root] Sending a read command for handle 0x0 to hepxrd01.colorado.edu:1094
+[2019-05-07 20:03:19.599347 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] MsgHandler created: 0xdf4810 (message: kXR_read (handle: 0x00000000, offset: 184549376, size: 16777216) ).
+[2019-05-07 20:03:19.599435 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] Moving MsgHandler: 0xdf4810 (message: kXR_read (handle: 0x00000000, offset: 184549376, size: 16777216) ) from out-queu to in-queue.
+[2019-05-07 20:04:07.250036 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] Calling MsgHandler: 0xdf5ea0 (message: kXR_read (handle: 0x00000000, offset: 134217728, size: 16777216) ) with status: [SUCCESS] .
+[2019-05-07 20:04:07.250202 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] Destroying MsgHandler: 0xdf5ea0.
+[2019-05-07 20:04:07.252767 +0000][Debug  ][File              ] [0xdf2d40@file://localhost/srv/TestColorado.root?oss.asize=240461986] Sending a write command for handle 0x12 to localhost
+[144MB/229.3MB][ 62%][===============================>                  ][540.1kB/s]  [2019-05-07 20:04:07.253086 +0000][Debug  ][File              ] [0xded5b0@root://hepxrd01.colorado.edu:1094//store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root] Sending a read command for handle 0x0 to hepxrd01.colorado.edu:1094
+[2019-05-07 20:04:07.253123 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] MsgHandler created: 0xdf5ec0 (message: kXR_read (handle: 0x00000000, offset: 201326592, size: 16777216) ).
+[2019-05-07 20:04:07.253267 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] Moving MsgHandler: 0xdf5ec0 (message: kXR_read (handle: 0x00000000, offset: 201326592, size: 16777216) ) from out-queu to in-queue.
+[2019-05-07 20:04:16.728436 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] Calling MsgHandler: 0xdf61b0 (message: kXR_read (handle: 0x00000000, offset: 150994944, size: 16777216) ) with status: [SUCCESS] .
+[2019-05-07 20:04:16.728532 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] Destroying MsgHandler: 0xdf61b0.
+[2019-05-07 20:04:16.731499 +0000][Debug  ][File              ] [0xdf2d40@file://localhost/srv/TestColorado.root?oss.asize=240461986] Sending a write command for handle 0x12 to localhost
+[160MB/229.3MB][ 69%][==================================>               ][581kB/s]  [2019-05-07 20:04:16.731690 +0000][Debug  ][File              ] [0xded5b0@root://hepxrd01.colorado.edu:1094//store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root] Sending a read command for handle 0x0 to hepxrd01.colorado.edu:1094
+[2019-05-07 20:04:16.731717 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] MsgHandler created: 0xdf6150 (message: kXR_read (handle: 0x00000000, offset: 218103808, size: 16777216) ).
+[2019-05-07 20:04:16.731846 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] Moving MsgHandler: 0xdf6150 (message: kXR_read (handle: 0x00000000, offset: 218103808, size: 16777216) ) from out-queu to in-queue.
+[2019-05-07 20:04:22.890260 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] Calling MsgHandler: 0xdf4270 (message: kXR_read (handle: 0x00000000, offset: 167772160, size: 16777216) ) with status: [SUCCESS] .
+[2019-05-07 20:04:22.890339 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] Destroying MsgHandler: 0xdf4270.
+[2019-05-07 20:04:22.893013 +0000][Debug  ][File              ] [0xdf2d40@file://localhost/srv/TestColorado.root?oss.asize=240461986] Sending a write command for handle 0x12 to localhost
+[176MB/229.3MB][ 76%][======================================>           ][625.8kB/s]  [2019-05-07 20:04:22.893136 +0000][Debug  ][File              ] [0xded5b0@root://hepxrd01.colorado.edu:1094//store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root] Sending a read command for handle 0x0 to hepxrd01.colorado.edu:1094
+[2019-05-07 20:04:22.893160 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] MsgHandler created: 0xdf4270 (message: kXR_read (handle: 0x00000000, offset: 234881024, size: 5580962) ).
+[2019-05-07 20:04:22.893335 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] Moving MsgHandler: 0xdf4270 (message: kXR_read (handle: 0x00000000, offset: 234881024, size: 5580962) ) from out-queu to in-queue.
+[2019-05-07 20:04:24.290740 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] Calling MsgHandler: 0xdf4810 (message: kXR_read (handle: 0x00000000, offset: 184549376, size: 16777216) ) with status: [SUCCESS] .
+[2019-05-07 20:04:24.290850 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] Destroying MsgHandler: 0xdf4810.
+[2019-05-07 20:04:24.293324 +0000][Debug  ][File              ] [0xdf2d40@file://localhost/srv/TestColorado.root?oss.asize=240461986] Sending a write command for handle 0x12 to localhost
+[192MB/229.3MB][ 83%][=========================================>        ][678kB/s]  [2019-05-07 20:04:36.993755 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] Calling MsgHandler: 0xdf4270 (message: kXR_read (handle: 0x00000000, offset: 234881024, size: 5580962) ) with status: [SUCCESS] .
+[2019-05-07 20:04:36.993811 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] Destroying MsgHandler: 0xdf4270.
+[2019-05-07 20:04:50.517290 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] Calling MsgHandler: 0xdf5ec0 (message: kXR_read (handle: 0x00000000, offset: 201326592, size: 16777216) ) with status: [SUCCESS] .
+[2019-05-07 20:04:50.517376 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] Destroying MsgHandler: 0xdf5ec0.
+[2019-05-07 20:04:50.517411 +0000][Debug  ][File              ] [0xdf2d40@file://localhost/srv/TestColorado.root?oss.asize=240461986] Sending a write command for handle 0x12 to localhost
+[208MB/229.3MB][ 90%][=============================================>    ][674kB/s]  [2019-05-07 20:04:52.164524 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] Calling MsgHandler: 0xdf6150 (message: kXR_read (handle: 0x00000000, offset: 218103808, size: 16777216) ) with status: [SUCCESS] .
+[2019-05-07 20:04:52.164589 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] Destroying MsgHandler: 0xdf6150.
+[2019-05-07 20:04:52.164633 +0000][Debug  ][File              ] [0xdf2d40@file://localhost/srv/TestColorado.root?oss.asize=240461986] Sending a write command for handle 0x12 to localhost
+[224MB/229.3MB][ 97%][================================================> ][721.3kB/s]  [2019-05-07 20:04:52.164772 +0000][Debug  ][File              ] [0xdf2d40@file://localhost/srv/TestColorado.root?oss.asize=240461986] Sending a write command for handle 0x12 to localhost
+[229.3MB/229.3MB][100%][==================================================][738.4kB/s]  [2019-05-07 20:04:52.200466 +0000][Debug  ][File              ] [0xdf2d40@file://localhost/srv/TestColorado.root?oss.asize=240461986] Sending a close command for handle 0x12 to localhost
+[2019-05-07 20:04:52.201308 +0000][Debug  ][File              ] [0xdf2d40@file://localhost/srv/TestColorado.root?oss.asize=240461986] Close returned from localhost with: [SUCCESS] 
+[2019-05-07 20:04:52.201448 +0000][Debug  ][File              ] [0xded5b0@root://hepxrd01.colorado.edu:1094//store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root] Sending a close command for handle 0x0 to hepxrd01.colorado.edu:1094
+[2019-05-07 20:04:52.201479 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] MsgHandler created: 0xdf3fa0 (message: kXR_close (handle: 0x00000000) ).
+[2019-05-07 20:04:52.201693 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] Moving MsgHandler: 0xdf3fa0 (message: kXR_close (handle: 0x00000000) ) from out-queu to in-queue.
+[2019-05-07 20:04:52.349548 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] Calling MsgHandler: 0xdf3fa0 (message: kXR_close (handle: 0x00000000) ) with status: [SUCCESS] .
+[2019-05-07 20:04:52.349622 +0000][Debug  ][File              ] [0xded5b0@root://hepxrd01.colorado.edu:1094//store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root] Close returned from hepxrd01.colorado.edu:1094 with: [SUCCESS] 
+[2019-05-07 20:04:52.349646 +0000][Debug  ][ExDbgMsg          ] [hepxrd01.colorado.edu:1094] Destroying MsgHandler: 0xdf3fa0.
+[229.3MB/229.3MB][100%][==================================================][738.4kB/s]  
+[2019-05-07 20:04:52.350363 +0000][Debug  ][JobMgr            ] Stopping the job manager...
+[2019-05-07 20:04:52.353619 +0000][Debug  ][JobMgr            ] Job manager stopped
+[2019-05-07 20:04:52.353637 +0000][Debug  ][TaskMgr           ] Stopping the task manager...
+[2019-05-07 20:04:52.353770 +0000][Debug  ][TaskMgr           ] Task manager stopped
+[2019-05-07 20:04:52.353782 +0000][Debug  ][Poller            ] Stopping the poller...
+[2019-05-07 20:04:52.353957 +0000][Debug  ][TaskMgr           ] Requesting unregistration of: "TickGeneratorTask for: hepxrd01.colorado.edu:1094"
+[2019-05-07 20:04:52.353973 +0000][Debug  ][AsyncSock         ] [hepxrd01.colorado.edu:1094 #0.0] Closing the socket
+[2019-05-07 20:04:52.353988 +0000][Debug  ][Poller            ] <[::ffff:131.154.197.60]:60696><--><[::ffff:192.12.238.148]:1094> Removing socket from the poller
+[2019-05-07 20:04:52.354026 +0000][Debug  ][PostMaster        ] [hepxrd01.colorado.edu:1094 #0] Destroying stream
+[2019-05-07 20:04:52.354038 +0000][Debug  ][AsyncSock         ] [hepxrd01.colorado.edu:1094 #0.0] Closing the socket
+exit code: 0 
+
+nn@@@Second test
+Tue May 7 20:04:52 UTC 2019 xrdcopy -f root://hepxrd01.colorado.edu:1094//store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root file:///srv/TestColorado.root
+[16MB/229.3MB][  6%][===>                                              ][292.6kB/s]  [64MB/229.3MB][ 27%][=============>                                    ][1.123MB/s]  [80MB/229.3MB][ 34%][=================>                                ][1.096MB/s]  [112MB/229.3MB][ 48%][========================>                         ][1.514MB/s]  [128MB/229.3MB][ 55%][===========================>                      ][1.707MB/s]  [144MB/229.3MB][ 62%][===============================>                  ][1.358MB/s]  [160MB/229.3MB][ 69%][==================================>               ][1.404MB/s]  [176MB/229.3MB][ 76%][======================================>           ][1.53MB/s]  [192MB/229.3MB][ 83%][=========================================>        ][1.655MB/s]  [208MB/229.3MB][ 90%][=============================================>    ][1.518MB/s]  [224MB/229.3MB][ 97%][================================================> ][1.589MB/s]  [229.3MB/229.3MB][100%][==================================================][1.626MB/s]  [229.3MB/229.3MB][100%][==================================================][1.626MB/s]  
+exit code: 0 
+
+nn@@@Third test
+Tue May 7 20:07:13 UTC 2019 xrdcopy -f /store/user/johnsond/gridftp-probe-test-file.1392772080.29006.remote
+[16MB/25.08MB][ 63%][===============================>                  ][468.1kB/s]  [25.08MB/25.08MB][100%][==================================================][733.7kB/s]  [25.08MB/25.08MB][100%][==================================================][733.7kB/s]  
+Run: [ERROR] Server responded with an error: [3005] Success
+
+exit code: 54 
+
+-----------end of XRootD tests-------------
+
+
+
+----------GFAL-COPY tests to XRootD Server (via xrd plugin)---------
+gfal-copy location: /cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr/bin/gfal-copy
+@@@First test in verbose mode@@@
+Tue May 7 20:07:48 UTC 2019gfal-copy -vvv -f root://hepxrd01.colorado.edu:1094//store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root /srv/TestColorado.root
+DEBUG  GFAL_CONFIG_DIR env var found, try to load configuration from /cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/etc/gfal2.d/
+DEBUG  try to load configuration file /cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/etc/gfal2.d//http_plugin.conf ...
+DEBUG  try to load configuration file /cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/etc/gfal2.d//bdii.conf ...
+DEBUG  try to load configuration file /cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/etc/gfal2.d//xrootd_plugin.conf ...
+DEBUG  try to load configuration file /cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/etc/gfal2.d//gfal2_core.conf ...
+DEBUG  try to load configuration file /cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/etc/gfal2.d//srm_plugin.conf ...
+DEBUG  try to load configuration file /cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/etc/gfal2.d//x509.conf ...
+DEBUG  try to load configuration file /cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/etc/gfal2.d//gsiftp_plugin.conf ...
+DEBUG Using credentials from X509_USER_PROXY
+DEBUG Certificate: /srv/x509up_u24239
+DEBUG Private key: /srv/x509up_u24239
+DEBUG ... GFAL_PLUGIN_DIR environment variable specified, try to load the plugins in given dir : /cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr/lib64/gfal2-plugins/
+DEBUG  [gfal_list_directory_plugins] add plugin to list to load /cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr/lib64/gfal2-plugins//libgfal_plugin_srm.so 
+DEBUG  [gfal_list_directory_plugins] add plugin to list to load /cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr/lib64/gfal2-plugins//libgfal_plugin_xrootd.so 
+DEBUG  [gfal_list_directory_plugins] add plugin to list to load /cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr/lib64/gfal2-plugins//libgfal_plugin_file.so 
+DEBUG  [gfal_list_directory_plugins] add plugin to list to load /cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr/lib64/gfal2-plugins//libgfal_plugin_gridftp.so 
+DEBUG  [gfal_list_directory_plugins] add plugin to list to load /cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr/lib64/gfal2-plugins//libgfal_plugin_http.so 
+INFO [gfal_module_load] plugin /cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr/lib64/gfal2-plugins//libgfal_plugin_srm.so loaded with success 
+DEBUG  gfal_plugin loaded succesfully : /cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr/lib64/gfal2-plugins//libgfal_plugin_srm.so
+INFO [gfal_module_load] plugin /cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr/lib64/gfal2-plugins//libgfal_plugin_xrootd.so loaded with success 
+DEBUG  gfal_plugin loaded succesfully : /cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr/lib64/gfal2-plugins//libgfal_plugin_xrootd.so
+INFO [gfal_module_load] plugin /cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr/lib64/gfal2-plugins//libgfal_plugin_file.so loaded with success 
+DEBUG  gfal_plugin loaded succesfully : /cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr/lib64/gfal2-plugins//libgfal_plugin_file.so
+DEBUG  -> [gridftp_plugin] try to load ..
+DEBUG  define GSIFTP session re-use to TRUE
+DEBUG  -> [gridftp_plugin] loaded ..
+INFO [gfal_module_load] plugin /cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr/lib64/gfal2-plugins//libgfal_plugin_gridftp.so loaded with success 
+DEBUG  gfal_plugin loaded succesfully : /cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr/lib64/gfal2-plugins//libgfal_plugin_gridftp.so
+DEBUG Davix: Enable GRID profile for DAVIX
+DEBUG Davix: Adding CA path /cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/etc/grid-security/certificates to valid CA path list
+DEBUG Davix: Using X509_USER_PROXY to supply credentials: /srv/x509up_u24239
+INFO [gfal_module_load] plugin /cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr/lib64/gfal2-plugins//libgfal_plugin_http.so loaded with success 
+DEBUG  gfal_plugin loaded succesfully : /cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr/lib64/gfal2-plugins//libgfal_plugin_http.so
+DEBUG  plugin priority order: srm-2.16.1 -> xrootd-2.16.1 -> file-2.16.1 -> gridftp-2.16.1 -> http-2.16.1 -> 
+DEBUG Xrootd Query URI: xrd.gsiusrpxy=/srv/x509up_u24239
+DEBUG  -> Gfal::Transfer::FileCopy
+INFO Event triggered: BOTH GFAL2:CORE:COPY LIST:ENTER 
+INFO Event triggered: BOTH GFAL2:CORE:COPY LIST:ITEM root://hepxrd01.colorado.edu:1094//store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root => file:///srv/TestColorado.root
+INFO Event triggered: BOTH GFAL2:CORE:COPY LIST:EXIT 
+DEBUG Xrootd Query URI: xrd.gsiusrpxy=/srv/x509up_u24239
+DEBUG Xrootd Query URI: xrd.gsiusrpxy=/srv/x509up_u24239
+DEBUG Impossible to get integer parameter XROOTD PLUGIN:PARALLEL_COPIES, set to default value 20, err Key file does not have key “PARALLEL_COPIES” in group “XROOTD PLUGIN”
+INFO Event triggered: BOTH xroot TRANSFER:ENTER root://hepxrd01.colorado.edu:1094///store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root?xrd.gsiusrpxy=/srv/x509up_u24239 => file://localhost///srv/TestColorado.root?xrd.gsiusrpxy=/srv/x509up_u24239
+INFO Event triggered: BOTH xroot TRANSFER:TYPE streamed
+Copying 240461986 bytes root://hepxrd01.colorado.edu:1094//store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root => file:///srv/TestColorado.root
+event: [1557259670108] BOTH   GFAL2:CORE:COPY	LIST:ENTER	
+event: [1557259670108] BOTH   GFAL2:CORE:COPY	LIST:ITEM	root://hepxrd01.colorado.edu:1094//store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root => file:///srv/TestColorado.root
+event: [1557259670108] BOTH   GFAL2:CORE:COPY	LIST:EXIT	
+event: [1557259670109] BOTH   xroot	TRANSFER:ENTER	root://hepxrd01.colorado.edu:1094///store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root?xrd.gsiusrpxy=/srv/x509up_u24239 => file://localhost///srv/TestColorado.root?xrd.gsiusrpxy=/srv/x509up_u24239
+event: [1557259670110] BOTH   xroot	TRANSFER:TYPE	streamed
+monitor: root://hepxrd01.colorado.edu:1094///store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root?xrd.gsiusrpxy=/srv/x509up_u24239 file://localhost///srv/TestColorado.root?xrd.gsiusrpxy=/srv/x509up_u24239 229824 229824 16777216 73
+monitor: root://hepxrd01.colorado.edu:1094///store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root?xrd.gsiusrpxy=/srv/x509up_u24239 file://localhost///srv/TestColorado.root?xrd.gsiusrpxy=/srv/x509up_u24239 453438 453438 33554432 74
+monitor: root://hepxrd01.colorado.edu:1094///store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root?xrd.gsiusrpxy=/srv/x509up_u24239 file://localhost///srv/TestColorado.root?xrd.gsiusrpxy=/srv/x509up_u24239 680157 680157 50331648 74
+monitor: root://hepxrd01.colorado.edu:1094///store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root?xrd.gsiusrpxy=/srv/x509up_u24239 file://localhost///srv/TestColorado.root?xrd.gsiusrpxy=/srv/x509up_u24239 906876 906876 67108864 74
+monitor: root://hepxrd01.colorado.edu:1094///store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root?xrd.gsiusrpxy=/srv/x509up_u24239 file://localhost///srv/TestColorado.root?xrd.gsiusrpxy=/srv/x509up_u24239 710898 710898 83886080 118
+monitor: root://hepxrd01.colorado.edu:1094///store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root?xrd.gsiusrpxy=/srv/x509up_u24239 file://localhost///srv/TestColorado.root?xrd.gsiusrpxy=/srv/x509up_u24239 825108 825108 100663296 122
+monitor: root://hepxrd01.colorado.edu:1094///store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root?xrd.gsiusrpxy=/srv/x509up_u24239 file://localhost///srv/TestColorado.root?xrd.gsiusrpxy=/srv/x509up_u24239 962627 962627 117440512 122
+monitor: root://hepxrd01.colorado.edu:1094///store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root?xrd.gsiusrpxy=/srv/x509up_u24239 file://localhost///srv/TestColorado.root?xrd.gsiusrpxy=/srv/x509up_u24239 1100145 1100145 134217728 122
+monitor: root://hepxrd01.colorado.edu:1094///store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root?xrd.gsiusrpxy=/srv/x509up_u24239 file://localhost///srv/TestColorado.root?xrd.gsiusrpxy=/srv/x509up_u24239 993387 993387 150994944 152
+monitor: root://hepxrd01.colorado.edu:1094///store/test/xrooINFO Event triggered: BOTH xroot TRANSFER:EXIT Job finished, [SUCCESS] 
+DEBUG  <- Gfal::Transfer::FileCopy
+DEBUG gridftp session cache garbage collection ...
+td/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root?xrd.gsiusrpxy=/srv/x509up_u24239 file://localhost///srv/TestColorado.root?xrd.gsiusrpxy=/srv/x509up_u24239 1029277 1029277 167772160 163
+monitor: root://hepxrd01.colorado.edu:1094///store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root?xrd.gsiusrpxy=/srv/x509up_u24239 file://localhost///srv/TestColorado.root?xrd.gsiusrpxy=/srv/x509up_u24239 1118481 1118481 184549376 165
+monitor: root://hepxrd01.colorado.edu:1094///store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root?xrd.gsiusrpxy=/srv/x509up_u24239 file://localhost///srv/TestColorado.root?xrd.gsiusrpxy=/srv/x509up_u24239 1212810 1212810 201326592 166
+monitor: root://hepxrd01.colorado.edu:1094///store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root?xrd.gsiusrpxy=/srv/x509up_u24239 file://localhost///srv/TestColorado.root?xrd.gsiusrpxy=/srv/x509up_u24239 1135957 1135957 218103808 192
+monitor: root://hepxrd01.colorado.edu:1094///store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root?xrd.gsiusrpxy=/srv/x509up_u24239 file://localhost///srv/TestColorado.root?xrd.gsiusrpxy=/srv/x509up_u24239 1198372 1198372 234881024 196
+monitor: root://hepxrd01.colorado.edu:1094///store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root?xrd.gsiusrpxy=/srv/x509up_u24239 file://localhost///srv/TestColorado.root?xrd.gsiusrpxy=/srv/x509up_u24239 1226846 1226846 240461986 196
+event: [1557259866233] BOTH   xroot	TRANSFER:EXIT	Job finished, [SUCCESS] 
+exit code: 0 
+
+nn@@@Second test
+Tue May 7 20:11:06 UTC 2019gfal-copy -f root://hepxrd01.colorado.edu:1094//store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root
+Copying 240461986 bytes root://hepxrd01.colorado.edu:1094//store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root => file:///srv/TestColorado.root
+exit code: 0 
+
+nn@@@Third test
+Tue May 7 20:13:25 UTC 2019gfal-copy -f root://cms-xrd-global.cern.ch//store/user/johnsond/gridftp-probe-test-file.1392772080.29006.remote
+Copying 26295004 bytes root://cms-xrd-global.cern.ch//store/user/johnsond/gridftp-probe-test-file.1392772080.29006.remote => file:///srv/TestColorado.root
+exit code: 0 
+
+
+
+
+----------GFAL-COPY tests to GSIFTP Server---------
+Tue May 7 20:13:50 UTC 2019gfal-ls -vvv gsiftp://gridftp-hadoop.colorado.edu/mnt/hadoop/store
+DEBUG  GFAL_CONFIG_DIR env var found, try to load configuration from /cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/etc/gfal2.d/
+DEBUG  try to load configuration file /cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/etc/gfal2.d//http_plugin.conf ...
+DEBUG  try to load configuration file /cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/etc/gfal2.d//bdii.conf ...
+DEBUG  try to load configuration file /cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/etc/gfal2.d//xrootd_plugin.conf ...
+DEBUG  try to load configuration file /cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/etc/gfal2.d//gfal2_core.conf ...
+DEBUG  try to load configuration file /cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/etc/gfal2.d//srm_plugin.conf ...
+DEBUG  try to load configuration file /cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/etc/gfal2.d//x509.conf ...
+DEBUG  try to load configuration file /cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/etc/gfal2.d//gsiftp_plugin.conf ...
+DEBUG Using credentials from X509_USER_PROXY
+DEBUG Certificate: /srv/x509up_u24239
+DEBUG Private key: /srv/x509up_u24239
+DEBUG ... GFAL_PLUGIN_DIR environment variable specified, try to load the plugins in given dir : /cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr/lib64/gfal2-plugins/
+DEBUG  [gfal_list_directory_plugins] add plugin to list to load /cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr/lib64/gfal2-plugins//libgfal_plugin_srm.so 
+DEBUG  [gfal_list_directory_plugins] add plugin to list to load /cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr/lib64/gfal2-plugins//libgfal_plugin_xrootd.so 
+DEBUG  [gfal_list_directory_plugins] add plugin to list to load /cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr/lib64/gfal2-plugins//libgfal_plugin_file.so 
+DEBUG  [gfal_list_directory_plugins] add plugin to list to load /cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr/lib64/gfal2-plugins//libgfal_plugin_gridftp.so 
+DEBUG  [gfal_list_directory_plugins] add plugin to list to load /cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr/lib64/gfal2-plugins//libgfal_plugin_http.so 
+INFO [gfal_module_load] plugin /cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr/lib64/gfal2-plugins//libgfal_plugin_srm.so loaded with success 
+DEBUG  gfal_plugin loaded succesfully : /cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr/lib64/gfal2-plugins//libgfal_plugin_srm.so
+INFO [gfal_module_load] plugin /cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr/lib64/gfal2-plugins//libgfal_plugin_xrootd.so loaded with success 
+DEBUG  gfal_plugin loaded succesfully : /cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr/lib64/gfal2-plugins//libgfal_plugin_xrootd.so
+INFO [gfal_module_load] plugin /cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr/lib64/gfal2-plugins//libgfal_plugin_file.so loaded with success 
+DEBUG  gfal_plugin loaded succesfully : /cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr/lib64/gfal2-plugins//libgfal_plugin_file.so
+DEBUG  -> [gridftp_plugin] try to load ..
+DEBUG  define GSIFTP session re-use to TRUE
+DEBUG  -> [gridftp_plugin] loaded ..
+INFO [gfal_module_load] plugin /cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr/lib64/gfal2-plugins//libgfal_plugin_gridftp.so loaded with success 
+DEBUG  gfal_plugin loaded succesfully : /cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr/lib64/gfal2-plugins//libgfal_plugin_gridftp.so
+DEBUG Davix: Enable GRID profile for DAVIX
+DEBUG Davix: Adding CA path /cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/etc/grid-security/certificates to valid CA path list
+DEBUG Davix: Using X509_USER_PROXY to supply credentials: /srv/x509up_u24239
+INFO [gfal_module_load] plugin /cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr/lib64/gfal2-plugins//libgfal_plugin_http.so loaded with success 
+DEBUG  gfal_plugin loaded succesfully : /cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr/lib64/gfal2-plugins//libgfal_plugin_http.so
+DEBUG  plugin priority order: srm-2.16.1 -> xrootd-2.16.1 -> file-2.16.1 -> gridftp-2.16.1 -> http-2.16.1 -> 
+DEBUG   -> [gfal_gridftp_statG]
+DEBUG  -> [GridFTPModule::stat] 
+DEBUG  -> [Gridftp_stat_module::globus_gass_stat] 
+DEBUG GSIFTP using certificate /srv/x509up_u24239
+DEBUG GSIFTP using private key /srv/x509up_u24239
+DEBUG no session associated with this baseurl, try find generic one .... 
+DEBUG no session found in cache for gsiftp://gridftp-hadoop.colorado.edu:0!
+DEBUG Impossible to get integer parameter GRIDFTP PLUGIN:BLOCK_SIZE, set to default value 0, err Key file does not have key “BLOCK_SIZE” in group “GRIDFTP PLUGIN”
+DEBUG Impossible to get integer parameter GRIDFTP PLUGIN:OPERATION_TIMEOUT, set to default value 1800, err Key file does not have key “OPERATION_TIMEOUT” in group “GRIDFTP PLUGIN”
+DEBUG    [GridFTP_Request_state::wait_callback] setup gsiftp timeout to 1800 seconds
+DEBUG  gridFTP operation done
+DEBUG Stat via MLST
+DEBUG Impossible to get integer parameter GRIDFTP PLUGIN:OPERATION_TIMEOUT, set to default value 1800, err Key file does not have key “OPERATION_TIMEOUT” in group “GRIDFTP PLUGIN”
+DEBUG    [GridFTP_Request_state::wait_callback] setup gsiftp timeout to 1800 seconds
+DEBUG  gridFTP operation done
+DEBUG    <- [gridftp_stat_mlst]] Got 'Type=dir;Modify=20160102215808;Size=4096;Perm=el;UNIX.mode=0755;UNIX.owner=root;UNIX.uid=0;UNIX.group=root;UNIX.gid=0;Unique=0-0; /mnt/hadoop/store'
+DEBUG  <- [Gridftp_stat_module::internal_globus_gass_stat] 
+DEBUG insert gridftp session for gsiftp://gridftp-hadoop.colorado.edu:0 in cache ...
+DEBUG  <- [GridFTPModule::stat] 
+DEBUG   [gfal_gridftp_statG]<-
+DEBUG   -> [gfal_gridftp_opendirG]
+DEBUG   -> [gfal_gridftp_statG]
+DEBUG  -> [GridFTPModule::stat] 
+DEBUG  -> [Gridftp_stat_module::globus_gass_stat] 
+DEBUG GSIFTP using certificate /srv/x509up_u24239
+DEBUG GSIFTP using private key /srv/x509up_u24239
+DEBUG gridftp session for: gsiftp://gridftp-hadoop.colorado.edu:0 found in  cache !
+DEBUG Impossible to get integer parameter GRIDFTP PLUGIN:OPERATION_TIMEOUT, set to default value 1800, err Key file does not have key “OPERATION_TIMEOUT” in group “GRIDFTP PLUGIN”
+DEBUG    [GridFTP_Request_state::wait_callback] setup gsiftp timeout to 1800 seconds
+DEBUG  gridFTP operation done
+DEBUG Stat via MLST
+DEBUG Impossible to get integer parameter GRIDFTP PLUGIN:OPERATION_TIMEOUT, set to default value 1800, err Key file does not have key “OPERATION_TIMEOUT” in group “GRIDFTP PLUGIN”
+DEBUG    [GridFTP_Request_state::wait_callback] setup gsiftp timeout to 1800 seconds
+DEBUG  gridFTP operation done
+DEBUG    <- [gridftp_stat_mlst]] Got 'Type=dir;Modify=20160102215808;Size=4096;Perm=el;UNIX.mode=0755;UNIX.owner=root;UNIX.uid=0;UNIX.group=root;UNIX.gid=0;Unique=0-0; /mnt/hadoop/store'
+DEBUG  <- [Gridftp_stat_module::internal_globus_gass_stat] 
+DEBUG insert gridftp session for gsiftp://gridftp-hadoop.colorado.edu:0 in cache ...
+DEBUG  <- [GridFTPModule::stat] 
+DEBUG   [gfal_gridftp_statG]<-
+DEBUG   -> [gfal_gridftp_readdirG]
+DEBUG GSIFTP using certificate /srv/x509up_u24239
+DEBUG GSIFTP using private key /srv/x509up_u24239
+DEBUG gridftp session for: gsiftp://gridftp-hadoop.colorado.edu:0 found in  cache !
+DEBUG Impossible to get integer parameter GRIDFTP PLUGIN:OPERATION_TIMEOUT, set to default value 1800, err Key file does not have key “OPERATION_TIMEOUT” in group “GRIDFTP PLUGIN”
+DEBUG    [GridFTP_Request_state::wait_callback] setup gsiftp timeout to 1800 seconds
+DEBUG  gridFTP operation done
+DEBUG Impossible to get integer parameter GRIDFTP PLUGIN:OPERATION_TIMEOUT, set to default value 1800, err Key file does not have key “OPERATION_TIMEOUT” in group “GRIDFTP PLUGIN”
+DEBUG Impossible to get integer parameter GRIDFTP PLUGIN:OPERATION_TIMEOUT, set to default value 1800, err Key file does not have key “OPERATION_TIMEOUT” in group “GRIDFTP PLUGIN”
+DEBUG  -> [GridftpSimpleListReader::GridftpSimpleListReader]
+DEBUG   -> [gridftp_read_stream]
+DEBUG    [GridFTP_Request_state::wait_callback] setup gsiftp timeout to 1800 seconds
+DEBUG  <- [GridftpSimpleListReader::GridftpSimpleListReader]
+DEBUG  gridFTP operation done
+DEBUG  -> [GridftpSimpleListReader::readdir]
+DEBUG   list file PhEDEx_LoadTest07 
+DEBUG   [GridftpSimpleListReader::readdir] <- 
+DEBUG   [gfal_gridftp_readdirG] <-
+DEBUG   -> [gfal_gridftp_readdirG]
+DEBUG  -> [GridftpSimpleListReader::readdir]
+DEBUG   list file data 
+DEBUG   [GridftpSimpleListReader::readdir] <- 
+DEBUG   [gfal_gridftp_readdirG] <-
+DEBUG   -> [gfal_gridftp_readdirG]
+DEBUG  -> [GridftpSimpleListReader::readdir]
+DEBUG   list file generator 
+DEBUG   [GridftpSimpleListReader::readdir] <- 
+DEBUG   [gfal_gridftp_readdirG] <-
+DEBUG   -> [gfal_gridftp_readdirG]
+DEBUG  -> [GridftpSimpleListReader::readdir]
+DEBUG   list file group 
+DEBUG   [GridftpSimpleListReader::readdir] <- 
+DEBUG   [gfal_gridftp_readdirG] <-
+DEBUG   -> [gfal_gridftp_readdirG]
+DEBUG  -> [GridftpSimpleListReader::readdir]
+DEBUG   list file hidata 
+DEBUG   [GridftpSimpleListReader::readdir] <- 
+DEBUG   [gfal_gridftp_readdirG] <-
+DEBUG   -> [gfal_gridftp_readdirG]
+DEBUG  -> [GridftpSimpleListReader::readdir]
+DEBUG   list file himc 
+DEBUG   [GridftpSimpleListReader::readdir] <- 
+DEBUG   [gfal_gridftp_readdirG] <-
+DEBUG   -> [gfal_gridftp_readdirG]
+DEBUG  -> [GridftpSimpleListReader::readdir]
+DEBUG   list file mc 
+DEBUG   [GridftpSimpleListReader::readdir] <- 
+DEBUG   [gfal_gridftp_readdirG] <-
+DEBUG   -> [gfal_gridftp_readdirG]
+DEBUG  -> [GridftpSimpleListReader::readdir]
+DEBUG   list file merge 
+DEBUG   [GridftpSimpleListReader::readdir] <- 
+DEBUG   [gfal_gridftp_readdirG] <-
+DEBUG   -> [gfal_gridftp_readdirG]
+DEBUG  -> [GridftpSimpleListReader::readdir]
+DEBUG   list file relval 
+DEBUG   [GridftpSimpleListReader::readdir] <- 
+DEBUG   [gfal_gridftp_readdirG] <-
+DEBUG   -> [gfal_gridftp_readdirG]
+DEBUG  -> [GridftpSimpleListReader::readdir]
+DEBUG   list file results 
+DEBUG   [GridftpSimpleListReader::readdir] <- 
+DEBUG   [gfal_gridftp_readdirG] <-
+DEBUG   -> [gfal_gridftp_readdirG]
+DEBUG  -> [GridftpSimpleListReader::readdir]
+DEBUG   list file temp 
+DEBUG   [GridftpSimpleListReader::readdir] <- 
+DEBUG   [gfal_gridftp_readdirG] <-
+DEBUG   -> [gfal_gridftp_readdirG]
+DEBUG  -> [GridftpSimpleListReader::readdir]
+DEBUG   list file test 
+DEBUG   [GridftpSimpleListReader::readdir] <- 
+DEBUG   [gfal_gridftp_readdirG] <-
+DEBUG   -> [gfal_gridftp_readdirG]
+DEBUG  -> [GridftpSimpleListReader::readdir]
+DEBUG   list file unmerged 
+DEBUG   [GridftpSimpleListReader::readdir] <- 
+DEBUG   [gfal_gridftp_readdirG] <-
+DEBUG   -> [gfal_gridftp_readdirG]
+DEBUG  -> [GridftpSimpleListReader::readdir]
+DEBUG   list file user 
+DEBUG   [GridftpSimpleListReader::readdir] <- 
+DEBUG   [gfal_gridftp_readdirG] <-
+DEBUG   -> [gfal_gridftp_readdirG]
+DEBUG  -> [GridftpSimpleListReader::readdir]
+DEBUG   -> [gridftp_read_stream]
+DEBUG   [gfal_gridftp_readdirG] <-
+DEBUG   -> [gfal_gridftp_closedirG]
+DEBUG    [GridFTP_Request_state::wait_callback] setup gsiftp timeout to 1800 seconds
+DEBUG insert gridftp session for gsiftp://gridftp-hadoop.colorado.edu:0 in cache ...
+DEBUG   [gfal_gridftp_closedirG] <-
+DEBUG gridftp session cache garbage collection ...
+PhEDEx_LoadTest07
+data
+generator
+group
+hidata
+himc
+mc
+merge
+relval
+results
+temp
+test
+unmerged
+user
+exit code: 0 
+
+----------end of GFAL-COPY tests---------
+-----Print environment------
+
+GLIDEIN_ResourceName=INFN-T1
+GLIDEIN_SEs=storm-fe-cms.cr.cnaf.infn.it
+OSG_SINGULARITY_VERSION=2.6.1-dist
+VO_KM3NET_ORG_SW_DIR=/opt/exp_software/km3
+Dashboard_monitorid=MetaID_https://login.uscms.org/78c87f8f593495fb/MetaID
+_CONDOR_JOB_PIDS=
+CMS_GLIDEIN_VERSION=18
+MANPATH=/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr/share/man:/usr/share/lsf/9.1/man:/opt/glite/share/man:::/opt/puppetlabs/puppet/share/man
+VO_NA62_VO_GRIDPP_AC_UK_SW_DIR=/cvmfs/na62.cern.ch
+_CONDOR_ANCESTOR_104913=104945:1557171728:1702402339
+VO_AMS02_CERN_CH_DEFAULT_SE=storm02.cr.cnaf.infn.it
+LSB_EXEC_CLUSTER=t1lsf913
+GRIDMAP=/home/pilcms010/home_cr008_705524118/CREAM705524118/glide_dWPEgu/grid-mapfile
+VO_JUNO_DEFAULT_SE=storm-fe-archive.cr.cnaf.infn.it
+HOSTNAME=wn-205-10-13-02-a.cr.cnaf.infn.it
+GLIDEIN_REQUIRE_GLEXEC_USE=False
+VO_KM3NET_ORG_DEFAULT_SE=storm-fe-archive.cr.cnaf.infn.it
+LSB_EFFECTIVE_RSRCREQ=select[(mcore==1) && (type == local)] order[r15s:pg] span[ptile=8] 
+REQUIRED_OS=rhel7
+OSG_SINGULARITY_BIND_GPU_LIBS=0
+VO_ALICE_SW_DIR=/opt/exp_software/alice
+LSF_LOGDIR=/tmp
+LSF_LIM_API_NTRIES=1
+SHELL=/bin/bash
+GRID_ENV_LOCATION=/usr/libexec
+GFAL_PLUGIN_DIR=/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr/lib64/gfal2-plugins/
+LSB_BATCH_JID=37682782
+OSG_MACHINE_GPUS=0
+HISTSIZE=1000
+VOMS_USERCONF=/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/etc/vomses
+GLIDEIN_CPUS=8
+GLOBUS_LOCATION=/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr
+TMPDIR=/srv
+LSB_TRAPSIGS=trap # 15 10 12 2 1
+VO_OPS_DEFAULT_SE=storm-fe-archive.cr.cnaf.infn.it
+PERL5LIB=/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr/share/perl5/vendor_perl:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr/share/perl5:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr/lib64/perl5/vendor_perl:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr/lib64/perl5
+GLIDECLIENT_Signature=44bf8fcd9f73bdd4c5525d38ad35ca1df73831ed
+LS_EXECCWD=/home/pilcms010/
+LS_JOBPID=94974
+GT_PROXY_MODE=rfc
+__delegationProxyCertSandboxPath=gsiftp://ce08-lcg.cr.cnaf.infn.it/var/cream_sandbox/pilcms/CN_cmspilot02_vocms080_cern_ch_OU_computers_DC_cern_DC_ch_cms_Role_pilot_Capability_NULL_pilcms010/proxy/1550763202_406447_16406089874362
+LSB_MAX_NUM_PROCESSORS=8
+LSB_JOBRES_CALLBACK=42948@wn-205-10-13-02-a
+_CONDOR_SCRATCH_DIR=/srv
+LSB_JOBID=37682782
+_CONDOR_ANCESTOR_104945=106134:1557259164:3013780324
+QTDIR=/usr/lib64/qt-3.3
+LSF_SERVERDIR=/usr/share/lsf/9.1/linux2.6-glibc2.3-x86_64/etc
+LSB_JOB_EXECUSER=pilcms010
+HAS_CVMFS_singularity_opensciencegrid_org=True
+OSG_WN_TMP=/tmp
+LSB_JOBRES_PID=94974
+QTINC=/usr/lib64/qt-3.3/include
+X509_CERT_DIR=/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/etc/grid-security/certificates
+CMS_VALIDATION_FRONTIER=0
+GLITE_WMS_LOCATION=/usr
+VO_GLAST_ORG_DEFAULT_SE=storm-fe-archive.cr.cnaf.infn.it
+VO_CDF_DEFAULT_SE=storm-fe-archive.cr.cnaf.infn.it
+VO_RDFA_DEFAULT_SE=storm-fe-archive.cr.cnaf.infn.it
+VO_MAGIC_DEFAULT_SE=storm-fe-archive.cr.cnaf.infn.it
+GLIDEIN_Max_Idle=600
+LSB_JOBNAME=cr008_705524118
+VO_INFNGRID_DEFAULT_SE=storm-fe-archive.cr.cnaf.infn.it
+BSUB_BLOCK_EXEC_HOST=
+GLEXEC_BIN=NONE
+VO_ARGO_SW_DIR=/opt/exp_software/argo
+VO_VO_COMPASS_CERN_CH_SW_DIR=/cvmfs/compass
+GLIDEIN_REQUIRE_VOMS=False
+QT_GRAPHICSSYSTEM_CHECKED=1
+LSF_LIBDIR=/usr/share/lsf/9.1/linux2.6-glibc2.3-x86_64/lib
+USER=pilcms010
+VO_BELLE_DEFAULT_SE=storm-fe-archive.cr.cnaf.infn.it
+_CHIRP_DELAYED_UPDATE_PREFIX=Chirp*
+VO_AMS02_CERN_CH_SW_DIR=/opt/exp_software/ams
+CMSSITE=T1_IT_CNAF
+LSF_CONF_PATH=/usr/share/lsf/conf
+LD_LIBRARY_PATH=/srv/condor/lib:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/lib64:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/lib:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr/lib64:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr/lib:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr/lib64/dcap:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr/lib64/lcgdm
+_CONDOR_ANCESTOR_106134=106490:1557259169:126417112
+CONDOR_PARENT_ID=wn-205-10-13-02-a:106134:1557259166
+VO_VIRGO_SW_DIR=/opt/exp_software/virgo
+GLIDEIN_Entry_Name=CMSHTPC_T1_IT_CNAF_ce08_mcore_el7
+OSG_SINGULARITY_IMAGE=/cvmfs/singularity.opensciencegrid.org/bbockelm/cms:rhel7
+SBD_KRB5CCNAME_VAL=
+GRID_JOBID=N/A
+VO_ARGO_DEFAULT_SE=storm-fe-archive.cr.cnaf.infn.it
+BATCH_SYSTEM=HTCondor
+LCG_LOCATION=/usr
+LSB_EEXEC_REAL_UID=
+VO_DTEAM_SW_DIR=/data/dteam
+GLIDEIN_Name=gfactory_instance
+VO_CMS_SW_DIR=/cvmfs/cms.cern.ch
+VO_VO_COMPASS_CERN_CH_DEFAULT_SE=fake-se.cr.cnaf.infn.it
+OSG_LOCATION=/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64
+OSG_SINGULARITY_IMAGE_DEFAULT=/cvmfs/singularity.opensciencegrid.org/bbockelm/cms:rhel6
+SINGULARITY_NAME=a5ea92e96606f969792af11d25b60582564a835c671f604123cb724414cedd
+CVMFS_oasis_opensciencegrid_org_TIMESTAMP=1552609251
+_CONDOR_CHIRP_CONFIG=/srv/.chirp.config
+VO_RDFA_SW_DIR=/opt/exp_software/rdfa
+VO_CDF_SW_DIR=/opt/exp_software/cdf
+VO_INFNGRID_SW_DIR=/opt/exp_software/infngrid
+VO_MAGIC_SW_DIR=/opt/exp_software/magic
+HOSTTYPE=X86_64
+VO_PAMELA_SW_DIR=/opt/exp_software/pamela
+LSB_CG_MEMLIMIT=0x6acfc0000
+VO_ICARUS_EXP_ORG_DEFAULT_SE=storm-fe-archive.cr.cnaf.infn.it
+LS_EXEC_T=START
+GLIDEIN_Entry_Signature=24c40e18d6df3abbdae2b0ac9267b6b57826e454
+VO_LHCB_DEFAULT_SE=storm-fe-lhcb.cr.cnaf.infn.it
+VO_OPS_SW_DIR=/data/opssw
+CONDOR_PROCD_ADDRESS_BASE=/home/pilcms010/home_cr008_705524118/CREAM705524118/glide_dWPEgu/log/procd_address
+LS_SUBCWD=/home/pilcms010/
+LSB_SUB_RES_REQ=select [mcore==1] span[ptile=8]
+GLITE_WMS_JOBID=N/A
+VO_ATLAS_DEFAULT_SE=storm-fe-archive.cr.cnaf.infn.it
+LSB_UNIXGROUP_INT=pilcms
+LSB_HOSTS=wn-205-10-13-02-a wn-205-10-13-02-a wn-205-10-13-02-a wn-205-10-13-02-a wn-205-10-13-02-a wn-205-10-13-02-a wn-205-10-13-02-a wn-205-10-13-02-a
+GLIDEIN_Site=CNAF
+LSB_JOBFILENAME=/data/1557168074.37682782
+GLIDECLIENT_Name=CMSG-v1_0.main
+OSG_SINGULARITY_REEXEC=1
+LSB_JOBINDEX=0
+MAIL=/var/spool/mail/pilcms010
+VO_BIOMED_DEFAULT_SE=storm-se-01.ba.infn.it
+OSG_SINGULARITY_OUTSIDE_PWD=/home/pilcms010/home_cr008_705524118/CREAM705524118/glide_dWPEgu/execute/dir_106134
+PATH=/srv/condor/libexec:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr/bin:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr/sbin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:/srv
+HOLD_GRACE_TIME=0
+USE_PSS=True
+HAS_CVMFS_oasis_opensciencegrid_org=True
+VO_VO_PADME_ORG_SW_DIR=/cvmfs/padme.infn.it
+LSB_EXIT_PRE_ABORT=99
+VO_CMS_DEFAULT_SE=storm-fe-cms.cr.cnaf.infn.it
+CONDOR_CONFIG=/home/pilcms010/home_cr008_705524118/CREAM705524118/glide_dWPEgu/condor_config
+VO_DTEAM_DEFAULT_SE=storm-fe-archive.cr.cnaf.infn.it
+LSB_JOBEXIT_STAT=0
+VO_BELLE_SW_DIR=/cvmfs/belle.cern.ch/sl6
+Dashboard_syncid=https://login.uscms.org//cmsconnect_khurtado_submit_d3c04723f859368c//12345.MetaID
+VO_AUGER_DEFAULT_SE=storm02.cr.cnaf.infn.it
+PWD=/srv
+LSB_RES_GET_FANOUT_INFO=Y
+LANG=C
+_CONDOR_WRAPPER_ERROR_FILE=/home/pilcms010/home_cr008_705524118/CREAM705524118/glide_dWPEgu/execute/dir_106134/.job_wrapper_failure
+VO_VO_CTA_IN2P3_FR_DEFAULT_SE=storm-fe-archive.cr.cnaf.infn.it
+LSB_CHKFILENAME=/data/1557168074.37682782
+VO_GLAST_ORG_SW_DIR=/cvmfs/glast.egi.eu
+GLIDEIN_Country=IT
+GLIDEIN_Gatekeeper=ce08-lcg.cr.cnaf.infn.it:8443/cream-lsf-cms_mcn
+X509_VOMS_DIR=/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/etc/grid-security/vomsdir
+GLIDEIN_GlobusRSL=WholeNodes = False; HostNumber = 1; CPUNumber = 8
+TZ=UTC
+LSB_DJOB_HOSTFILE=/data/1557168074.37682782.hostfile
+_CONDOR_SLOT=slot1_5
+GLIDEIN_Job_Max_Time=14400
+LSB_JOB_STARTER=/usr/share/lsf/conf/scripts/jobstarter.sh
+VO_JUNO_SW_DIR=/opt/exp_software/juno
+GLIDEIN_Tmp_Dir=/home/pilcms010/home_cr008_705524118/CREAM705524118/glide_dWPEgu/tmp
+MYPROXY_SERVER=myproxy.cnaf.infn.it
+LSF_JOB_TIMESTAMP_VALUE=1557171651
+OSG_SINGULARITY_PATH=/bin/singularity
+GLIDEIN_CLAIM_WORKLIFE_DYNAMIC=cpus*(6*3600)
+GLITE_WMS_SEQUENCE_CODE=
+LSB_AFFINITY_HOSTFILE=/data/1557168074.37682782.hostAffinityFile
+GLIDEIN_Factory=CERN-Prod
+GLIDEIN_Proxy_URL=None
+GLIDEIN_GridType=cream
+GLIDECLIENT_Group=main
+LSF_BINDIR=/usr/share/lsf/9.1/linux2.6-glibc2.3-x86_64/bin
+LSB_DJOB_NUMPROC=8
+LSB_EXEC_HOSTTYPE=X86_64
+HISTCONTROL=ignoredups
+GLIDEIN_Expose_Grid_Env=True
+CE_ID=ce08-lcg.cr.cnaf.infn.it:8443/cream-lsf-cms_mcn
+Dashboard_Id=3
+_CONDOR_EXECUTE=/home/pilcms010/home_cr008_705524118/CREAM705524118/glide_dWPEgu/execute
+VO_LHCB_SW_DIR=/cvmfs/lhcb.cern.ch
+CREAM_JOBID=https://ce08-lcg.cr.cnaf.infn.it:8443/CREAM705524118
+VO_ALICE_DEFAULT_SE=storm-fe-alice.cr.cnaf.infn.it
+HAS_CVMFS_cms_cern_ch=True
+HOME=/srv
+GLITE_LOCATION_VAR=/var
+GLOBUS_GSSAPI_NAME_COMPATIBILITY=HYBRID
+GLIDECLIENT_Group_Signature=8e5dc3c7ae52170e767cef8b57debbb530b9b99c
+SHLVL=10
+GLIDEIN_Max_Tail=600
+__copy_proxy_min_retry_wait=60
+_CONDOR_MACHINE_AD=/srv/.machine.ad
+java_options=-Xms128m -Xmx512m
+X509_USER_PROXY=/srv/x509up_u24239
+__delegationTimeSlot=3600
+Dashboard_taskid=cmsconnect_khurtado_submit_d3c04723f859368c
+GSI_AUTHZ_CONF=/dev/null
+JOB_TERMINATE_INTERVAL=10
+SLOTS_LAYOUT=partitionable
+LSB_ACCT_FILE=/tmp/37682782.tmpdir/.1557168074.37682782.acct
+BINARY_TYPE_HPC=
+CVMFS_oasis_opensciencegrid_org_REVISION=11415
+GLIDEIN_CMSSite=T1_IT_CNAF
+LSB_SUB_HOST=ce08-lcg
+VO_AUGER_SW_DIR=/opt/exp_software/auger
+GLIDEIN_Signature=b870fd61148c70837bba0e3c802d385e47d70edb
+VO_NA62_VO_GRIDPP_AC_UK_DEFAULT_SE=fake-se.cr.cnaf.infn.it
+GFAL_CONFIG_DIR=/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/etc/gfal2.d/
+GLITE_ENV_SET=TRUE
+VO_VIRGO_DEFAULT_SE=storm-fe-virgo.cr.cnaf.infn.it
+GLIDEIN_Schedd=schedd_glideins9@vocms0206.cern.ch
+LSB_SUB_USER=pilcms010
+__LSF_JOB_TMPDIR__=/tmp/37682782.tmpdir
+LSFUSER=pilcms010
+LCG_GFAL_INFOSYS=egee-bdii.cnaf.infn.it:2170
+GLIDEIN_REQUIRED_OS=any
+PYTHONPATH=/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr/lib/python2.7/site-packages:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.4/3.4.29/el7-x86_64/usr/lib64/python2.7/site-packages
+LSB_MCPU_HOSTS=wn-205-10-13-02-a 8 
+LSB_OUTDIR=/home/pilcms010
+VO_PAMELA_DEFAULT_SE=storm-fe-archive.cr.cnaf.infn.it
+LSB_QUEUE=cms_mcn
+VO_ICARUS_EXP_ORG_SW_DIR=/opt/exp_software/icarus
+GLIDEIN_Glexec_Use=OPTIONAL
+GPUDetection=No GPUs detected
+LOGNAME=pilcms010
+LSB_OUTPUTFILE=/dev/null
+QTLIB=/usr/lib64/qt-3.3/lib
+CVMFS_cms_cern_ch_REVISION=73210
+HAS_SINGULARITY=1
+GLIDEIN_Monitoring_Enabled=False
+VO_BIOMED_SW_DIR=/opt/exp_software/biomed
+GLIDEIN_ClusterId=801038
+GLIDEIN_ProcId=2
+OMP_NUM_THREADS=1
+GLOBUS_GSSAPI_CIPHERS=HIGH
+LSF_CGROUP_TOPDIR_KEY=t1lsf913
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+_CONDOR_JOB_AD=/srv/.job.ad
+MEMORY_USAGE_METRIC=ifthenelse(ProportionalSetSizeKb=?=UNDEFINED,(ResidentSetSize +1023)/1024,(ProportionalSetSizeKb + 1023)/1024)
+__delegationProxyCertSandboxPathTmp=/tmp/1550763202_406447_16406089874362705524118
+OSG_SINGULARITY_AUTOLOAD=1
+SINGULARITY_CONTAINER=a5ea92e96606f969792af11d25b60582564a835c671f604123cb724414cedd
+LSB_XFER_OP=
+LSB_EEXEC_REAL_GID=
+VO_ATLAS_SW_DIR=/cvmfs/atlas.cern.ch/repo/sw
+CVMFS_singularity_opensciencegrid_org_REVISION=61710
+VO_VO_PADME_ORG_DEFAULT_SE=storm-fe-archive.cr.cnaf.infn.it
+VO_XENON_BIGGRID_NL_SW_DIR=/opt/exp_software/xenon
+GLITE_LOCATION=/usr
+GLIDEIN_LOCAL_TMP_DIR=/tmp/glide_pilcms010_ihf1W4
+GLOBUS_GSSAPI_FORCE_TLS=false
+LSF_ENVDIR=/usr/share/lsf/conf
+OSG_SINGULARITY_BIND_CVMFS=1
+_CONDOR_JOB_IWD=/srv
+LSF_BIN_PATH=/usr/share/lsf/9.1/linux2.6-glibc2.3-x86_64/bin
+VO_VO_CTA_IN2P3_FR_SW_DIR=/opt/exp_software/cta
+SITE_NAME=INFN-T1
+SRM_PATH=/usr/share/srm
+LSB_DJOB_RANKFILE=/data/1557168074.37682782.hostfile
+GLOBUS_GSSAPI_SERVER_CIPHER_ORDER=true
+VO_XENON_BIGGRID_NL_DEFAULT_SE=fake-se.cr.cnaf.infn.it
+GLITE_WMS_LOG_DESTINATION=ce08-lcg.cr.cnaf.infn.it
+CONDOR_PROCD_ADDRESS=/home/pilcms010/home_cr008_705524118/CREAM705524118/glide_dWPEgu/log/procd_address
+EDG_WL_NOSETPGRP=1
+_=/bin/env
+---------environment--------
+
+
+All done
+

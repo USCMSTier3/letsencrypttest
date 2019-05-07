@@ -1,0 +1,287 @@
+Start time: Tue May  7 19:59:25 UTC 2019
+Job is running on node: ttcms032-1114110.0-lcg2262.gridpp.rl.ac.uk
+Job running as user: uid=63099(ttcms032) gid=35515(cms_pilot) groups=35515(cms_pilot)
+Job is running in directory: /srv
+SO version
+Ubuntu 16.04.4 LTS \n \l
+
+CVMFS->local
+singularity version
+
+
+
+-----------XRootD tests-------------
+xrdcopy location: @@@First test in debug mode@@@
+Tue May 7 19:59:25 UTC 2019 xrdcopy -f root://hepxrd01.colorado.edu:1094//store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root
+/srv/short.sh: line 27: xrdcopy: command not found
+exit code: 127 
+
+nn@@@Second test
+Tue May 7 19:59:25 UTC 2019 xrdcopy -f root://hepxrd01.colorado.edu:1094//store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root file:///srv/TestColorado.root
+/srv/short.sh: line 32: xrdcopy: command not found
+exit code: 127 
+
+nn@@@Third test
+Tue May 7 19:59:25 UTC 2019 xrdcopy -f /store/user/johnsond/gridftp-probe-test-file.1392772080.29006.remote
+/srv/short.sh: line 37: xrdcopy: command not found
+exit code: 127 
+
+-----------end of XRootD tests-------------
+
+
+
+----------GFAL-COPY tests to XRootD Server (via xrd plugin)---------
+gfal-copy location: @@@First test in verbose mode@@@
+Tue May 7 19:59:25 UTC 2019gfal-copy -vvv -f root://hepxrd01.colorado.edu:1094//store/test/xrootd/T3_US_Colorado/store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root /srv/TestColorado.root
+/srv/short.sh: line 47: gfal-copy: command not found
+exit code: 127 
+
+nn@@@Second test
+Tue May 7 19:59:25 UTC 2019gfal-copy -f root://hepxrd01.colorado.edu:1094//store/mc/SAM/GenericTTbar/AODSIM/CMSSW_9_2_6_91X_mcRun1_realistic_v2-v1/00000/A64CCCF2-5C76-E711-B359-0CC47A78A3F8.root
+/srv/short.sh: line 51: gfal-copy: command not found
+exit code: 127 
+
+nn@@@Third test
+Tue May 7 19:59:25 UTC 2019gfal-copy -f root://cms-xrd-global.cern.ch//store/user/johnsond/gridftp-probe-test-file.1392772080.29006.remote
+/srv/short.sh: line 56: gfal-copy: command not found
+exit code: 127 
+
+
+
+
+----------GFAL-COPY tests to GSIFTP Server---------
+Tue May 7 19:59:25 UTC 2019gfal-ls -vvv gsiftp://gridftp-hadoop.colorado.edu/mnt/hadoop/store
+/srv/short.sh: line 62: gfal-ls: command not found
+exit code: 127 
+
+----------end of GFAL-COPY tests---------
+-----Print environment------
+
+OSG_SINGULARITY_VERSION=2.6.1-dist
+Dashboard_monitorid=MetaID_https://login.uscms.org/78c87f8f593495fb/MetaID
+GLIDEIN_ResourceName=RAL-LCG2
+GLIDEIN_SEs=srm-cms.gridpp.rl.ac.uk
+_CONDOR_JOB_PIDS=
+VO_NA62_VO_GRIDPP_AC_UK_SW_DIR=/cvmfs/na62.cern.ch
+MANPATH=/cvmfs/grid.cern.ch/centos7-wn-preview-v02/usr/share/man:::/opt/glite/share/man::
+CMS_GLIDEIN_VERSION=18
+_CONDOR_ANCESTOR_7505=7508:1557109051:1730201251
+GRIDMAP=/pool/condor/dir_64860/glide_TsHdha/grid-mapfile
+VO_VO_SOUTHGRID_AC_UK_SW_DIR=/cvmfs/generic.gridpp.ac.uk/vo.southgrid.ac.uk
+GLIDEIN_REQUIRE_GLEXEC_USE=False
+HOSTNAME=ttcms032-1114110.0-lcg2262.gridpp.rl.ac.uk
+REQUIRED_OS=rhel7
+VO_ALICE_SW_DIR=/stage/vo-sw-alice/alicesgm
+OSG_SINGULARITY_BIND_GPU_LIBS=0
+GFAL_PLUGIN_DIR=/cvmfs/grid.cern.ch/centos7-wn-preview-v02/usr/lib64/gfal2-plugins/
+TERM=xterm
+VO_CEDAR_SW_DIR=/cvmfs/generic.gridpp.ac.uk
+VO_NGS_AC_UK_DEFAULT_SE=heplnx204.pp.rl.ac.uk
+HISTSIZE=1000
+VO_ESR_DEFAULT_SE=heplnx204.pp.rl.ac.uk
+VOMS_USERCONF=/cvmfs/grid.cern.ch/etc/grid-security/vomses
+OSG_MACHINE_GPUS=0
+TMPDIR=/srv
+GLOBUS_LOCATION=/cvmfs/grid.cern.ch/centos7-wn-preview-v02/usr
+GLIDEIN_CPUS=8
+PERL5LIB=/cvmfs/grid.cern.ch/centos7-wn-preview-v02/usr/lib64/perl5/vendor_perl:/cvmfs/grid.cern.ch/centos7-wn-preview-v02/usr/lib/perl5/vendor_perl:/cvmfs/grid.cern.ch/centos7-wn-preview-v02/usr/share/perl5/vendor_perl:/cvmfs/grid.cern.ch/centos7-wn-preview-v02/usr/share/perl5/
+GLIDECLIENT_Signature=44bf8fcd9f73bdd4c5525d38ad35ca1df73831ed
+VO_OPS_DEFAULT_SE=srm-dteam.gridpp.rl.ac.uk
+GT_PROXY_MODE=rfc
+VO_BABAR_SW_DIR=/cvmfs/generic.gridpp.ac.uk
+_CONDOR_SCRATCH_DIR=/srv
+HAS_CVMFS_singularity_opensciencegrid_org=True
+CMS_VALIDATION_FRONTIER=0
+VO_GLAST_ORG_DEFAULT_SE=heplnx204.pp.rl.ac.uk
+OSG_WN_TMP=/tmp
+VO_MINOS_VO_GRIDPP_AC_UK_DEFAULT_SE=srm-minos.gridpp.rl.ac.uk
+VO_MAGIC_DEFAULT_SE=heplnx204.pp.rl.ac.uk
+VO_CDF_DEFAULT_SE=heplnx204.pp.rl.ac.uk
+GLIDEIN_Max_Idle=600
+_CONDOR_ANCESTOR_7508=24917:1557259157:3901798018
+VO_VO_NANOCMOS_AC_UK_SW_DIR=/cvmfs/generic.gridpp.ac.uk/vo.nanocmos.ac.uk
+VO_BABAR_DEFAULT_SE=heplnx204.pp.rl.ac.uk
+GRIDMAPDIR=/etc/grid-security/gridmapdir
+VO_VO_NORTHGRID_AC_UK_SW_DIR=/cvmfs/generic.gridpp.ac.uk/vo.northgrid.ac.uk
+GLIDEIN_REQUIRE_VOMS=False
+GLEXEC_BIN=NONE
+USER=ttcms032
+_CHIRP_DELAYED_UPDATE_PREFIX=Chirp*
+CONDOR_BIN_PATH=/usr/bin
+LD_LIBRARY_PATH=/srv/condor/lib:
+VO_ENMR_EU_DEFAULT_SE=heplnx204.pp.rl.ac.uk
+VO_SNOPLUS_SNOLAB_CA_DEFAULT_SE=srm-snoplus.gridpp.rl.ac.uk
+CONDOR_PARENT_ID=ttcms032-1114110:24917:1557259160
+CMSSITE=T1_UK_RAL
+GLIDEIN_Entry_Name=CMSHTPC_T1_UK_RAL_arc_ce05_multicore_el7
+VO_LSST_SW_DIR=/cvmfs/lsst.opensciencegrid.org/uk
+OSG_SINGULARITY_IMAGE=/cvmfs/singularity.opensciencegrid.org/opensciencegrid/tensorflow:latest
+EMI_TARBALL_BASE=/cvmfs/grid.cern.ch/centos7-wn-preview-v02
+GLIDEIN_Name=gfactory_instance
+LCG_LOCATION=/cvmfs/grid.cern.ch/centos7-wn-preview-v02/usr
+VO_DTEAM_SW_DIR=/cvmfs/generic.gridpp.ac.uk
+VO_ZEUS_SW_DIR=/cvmfs/generic.gridpp.ac.uk
+VO_VO_NORTHGRID_AC_UK_DEFAULT_SE=heplnx204.pp.rl.ac.uk
+VO_CMS_SW_DIR=/cvmfs/cms.cern.ch
+BATCH_SYSTEM=HTCondor
+SINGULARITY_NAME=dc66e431fb62152f9a28e4683fd2419a85d8a3833d49aac0fa26b49a5c30c5
+OSG_SINGULARITY_IMAGE_DEFAULT=/cvmfs/singularity.opensciencegrid.org/bbockelm/cms:rhel6
+VO_MINOS_VO_GRIDPP_AC_UK_SW_DIR=/cvmfs/generic.gridpp.ac.uk
+CVMFS_oasis_opensciencegrid_org_TIMESTAMP=1552609251
+VO_CDF_SW_DIR=/cvmfs/generic.gridpp.ac.uk
+VO_MAGIC_SW_DIR=/cvmfs/generic.gridpp.ac.uk
+VO_VO_SCOTGRID_AC_UK_DEFAULT_SE=heplnx204.pp.rl.ac.uk
+_CONDOR_CHIRP_CONFIG=/srv/.chirp.config
+GLOBUS_GSSAPI_MAX_TLS_PROTOCOL=0
+VO_ILC_DEFAULT_SE=heplnx204.pp.rl.ac.uk
+VO_MANMACE_SW_DIR=/cvmfs/generic.gridpp.ac.uk/manmace
+GLIDEIN_Entry_Signature=e31efaf23fc0b4762e525432db98a202cf29c145
+VO_LHCB_DEFAULT_SE=srm-lhcb.gridpp.rl.ac.uk
+VO_PHENO_DEFAULT_SE=heplnx204.pp.rl.ac.uk
+CONDOR_PROCD_ADDRESS_BASE=/pool/condor/dir_64860/glide_TsHdha/log/procd_address
+OPENSSL_ALLOW_PROXY_CERTS=1
+VO_OPS_SW_DIR=/cvmfs/generic.gridpp.ac.uk
+RUNTIME_CONFIG_DIR=/etc/arc/runtime
+VO_GEANT4_DEFAULT_SE=heplnx204.pp.rl.ac.uk
+ARC_LOCATION=/usr
+VO_ATLAS_DEFAULT_SE=srm-atlas.gridpp.rl.ac.uk
+VO_TOTALEP_DEFAULT_SE=heplnx204.pp.rl.ac.uk
+VO_DZERO_DEFAULT_SE=heplnx204.pp.rl.ac.uk
+VO_MICE_SW_DIR=/cvmfs/mice.egi.eu
+GLIDEIN_Site=RAL
+GLIDECLIENT_Name=CMSG-v1_0.main
+OSG_SINGULARITY_REEXEC=1
+XrdSecGSISRVNAMES=lcg2262.gridpp.rl.ac.uk
+PATH=/srv/condor/libexec:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:/srv
+VO_BIOMED_DEFAULT_SE=srm-biomed.gridpp.rl.ac.uk
+MAIL=/var/spool/mail/ttcms032
+OSG_SINGULARITY_OUTSIDE_PWD=/pool/condor/dir_64860/glide_TsHdha/execute/dir_24917
+USE_PSS=True
+HAS_CVMFS_oasis_opensciencegrid_org=True
+HOLD_GRACE_TIME=0
+VO_VO_SCOTGRID_AC_UK_SW_DIR=/cvmfs/generic.gridpp.ac.uk/vo.scotgrid.ac.uk
+VO_LTWO_SW_DIR=/cvmfs/generic.gridpp.ac.uk/ltwo
+VO_MICE_DEFAULT_SE=srm-mice.gridpp.rl.ac.uk
+CONDOR_CONFIG=/pool/condor/dir_64860/glide_TsHdha/condor_config
+VO_CMS_DEFAULT_SE=srm-cms.gridpp.rl.ac.uk
+VO_DTEAM_DEFAULT_SE=srm-dteam.gridpp.rl.ac.uk
+VO_ZEUS_DEFAULT_SE=heplnx204.pp.rl.ac.uk
+PWD=/srv
+Dashboard_syncid=https://login.uscms.org//cmsconnect_khurtado_submit_d3c04723f859368c//12345.MetaID
+VO_VO_SOUTHGRID_AC_UK_DEFAULT_SE=heplnx204.pp.rl.ac.uk
+SITE_GIIS_URL=site-bdii.gridpp.rl.ac.uk
+JAVA_HOME=/cvmfs/grid.cern.ch/centos7-wn-preview-v02/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.121-0.b13.el7_3.x86_64/jre
+VO_ESR_SW_DIR=/cvmfs/generic.gridpp.ac.uk
+VO_NGS_AC_UK_SW_DIR=/cvmfs/generic.gridpp.ac.uk
+LANG=C
+JOBFEATURES=/tmp/mjf-ttcms032/jobfeatures-arc-ce05.gridpp.rl.ac.uk_1114110.0_1557105552
+_CONDOR_WRAPPER_ERROR_FILE=/pool/condor/dir_64860/glide_TsHdha/execute/dir_24917/.job_wrapper_failure
+VO_GLAST_ORG_SW_DIR=/cvmfs/glast.egi.eu
+GLIDEIN_Country=UK
+VO_GRIDPP_DEFAULT_SE=heplnx204.pp.rl.ac.uk
+TZ=UTC
+RUNTIME_ENABLE_MULTICORE_SCRATCH=1
+X509_VOMS_DIR=/cvmfs/grid.cern.ch/etc/grid-security/vomsdir
+GLIDEIN_GlobusRSL=(queue=EL7)(count=8)(memory=3072)(runtimeenvironment=ENV/GLITE)
+GLIDEIN_Gatekeeper=arc-ce05.gridpp.rl.ac.uk
+BDII_LIST=lcg-bdii.cern.ch:2170
+GLIDEIN_Job_Max_Time=14400
+_CONDOR_SLOT=slot1_8
+GLIDEIN_Tmp_Dir=/pool/condor/dir_64860/glide_TsHdha/tmp
+MYPROXY_SERVER=myproxy.cern.ch
+GLIDEIN_Proxy_URL=None
+VO_EPIC_VO_GRIDPP_AC_UK_DEFAULT_SE=heplnx204.pp.rl.ac.uk
+GLIDEIN_CLAIM_WORKLIFE_DYNAMIC=cpus*(6*3600)
+VO_PHENO_SW_DIR=/cvmfs/pheno.egi.eu
+GLIDEIN_Factory=CERN-Prod
+GLIDEIN_GridType=nordugrid
+OSG_SINGULARITY_PATH=/bin/singularity
+GLIDECLIENT_Group=main
+GLOBUS_GSSAPI_VHOST_CRED_OWNER=root
+HISTCONTROL=ignoredups
+VO_VO_NANOCMOS_AC_UK_DEFAULT_SE=heplnx204.pp.rl.ac.uk
+GLEXEC_LOCATION=/usr
+VO_LHCB_SW_DIR=/cvmfs/lhcb.cern.ch
+Dashboard_Id=4
+_CONDOR_EXECUTE=/pool/condor/dir_64860/glide_TsHdha/execute
+GLIDEIN_Expose_Grid_Env=True
+GLIDECLIENT_Group_Signature=8e5dc3c7ae52170e767cef8b57debbb530b9b99c
+SHLVL=7
+VO_ALICE_DEFAULT_SE=srm-alice.gridpp.rl.ac.uk
+HAS_CVMFS_cms_cern_ch=True
+GLOBUS_GSSAPI_NAME_COMPATIBILITY=STRICT_RFC2818
+GLITE_LOCATION_VAR=/var
+HOME=/srv
+_CONDOR_MACHINE_AD=/srv/.machine.ad
+GLOBUS_TCP_PORT_RANGE=50000,52000
+MACHINEFEATURES=/etc/machinefeatures
+GLIDEIN_Max_Tail=600
+X509_USER_PROXY=/srv/x509up_u24239
+Dashboard_taskid=cmsconnect_khurtado_submit_d3c04723f859368c
+GSI_AUTHZ_CONF=/dev/null
+java_options=-Xms128m -Xmx512m
+GLOBUS_GSSAPI_MIN_TLS_PROTOCOL=TLS1_VERSION_DEPRECATED
+SLOTS_LAYOUT=partitionable
+GFAL_CONFIG_DIR=/cvmfs/grid.cern.ch/centos7-wn-preview-v02/etc/gfal2.d/
+GLIDEIN_CMSSite=T1_UK_RAL
+VO_NA62_VO_GRIDPP_AC_UK_DEFAULT_SE=srm-na62.gridpp.rl.ac.uk
+CVMFS_oasis_opensciencegrid_org_REVISION=11409
+GLIDEIN_Signature=51db0de65e34bcaca33015c67e888397f171940e
+VO_SNOPLUS_SNOLAB_CA_SW_DIR=/cvmfs/snoplus.egi.eu
+GLIDEIN_Schedd=schedd_glideins9@vocms0206.cern.ch
+VO_ENMR_EU_SW_DIR=/cvmfs/wenmr.egi.eu
+VO_MANMACE_DEFAULT_SE=heplnx204.pp.rl.ac.uk
+LOGNAME=ttcms032
+GLIDEIN_Glexec_Use=OPTIONAL
+LCG_GFAL_INFOSYS=lcg-bdii.cern.ch:2170
+GLIDEIN_REQUIRED_OS=any
+GPUDetection=No GPUs detected
+PYTHONPATH=/cvmfs/grid.cern.ch/centos7-wn-preview-v02/usr/lib64/python2.7/site-packages:/cvmfs/grid.cern.ch/centos7-wn-preview-v02/usr/lib/python2.7/site-packages
+VO_ILC_SW_DIR=/cvmfs/ilc.desy.de
+CVMFS_cms_cern_ch_REVISION=73174
+HAS_SINGULARITY=1
+NORDUGRID_ARC_QUEUE=EL7
+VO_BIOMED_SW_DIR=/cvmfs/biomed.egi.eu
+GRID_GLOBAL_JOBID=gsiftp://arc-ce05.gridpp.rl.ac.uk:2811/jobs/G6ZKDmhShhun0YTDjqK9jVWpABFKDmABFKDmi9WTDmBBFKDmDwhJIn
+EMI_UI_CONF=/cvmfs/grid.cern.ch/centos7-wn-preview-v02
+GLIDEIN_Monitoring_Enabled=False
+VO_SUPERNEMO_VO_EU_EGEE_ORG_DEFAULT_SE=heplnx204.pp.rl.ac.uk
+GLIDEIN_ClusterId=797695
+GLIDEIN_ProcId=1
+OMP_NUM_THREADS=1
+VO_LSST_DEFAULT_SE=heplnx204.pp.rl.ac.uk
+GLOBUS_GSSAPI_CIPHERS=HIGH
+GLOBUS_GSSAPI_BACKWARD_COMPATIBLE_MIC=true
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+_CONDOR_JOB_AD=/srv/.job.ad
+MEMORY_USAGE_METRIC=ifthenelse(ProportionalSetSizeKb=?=UNDEFINED,(ResidentSetSize +1023)/1024,(ProportionalSetSizeKb + 1023)/1024)
+SINGULARITY_CONTAINER=dc66e431fb62152f9a28e4683fd2419a85d8a3833d49aac0fa26b49a5c30c5
+VO_EPIC_VO_GRIDPP_AC_UK_SW_DIR=/cvmfs/generic.gridpp.ac.uk
+OSG_SINGULARITY_AUTOLOAD=1
+VO_TOTALEP_SW_DIR=/cvmfs/generic.gridpp.ac.uk/totalep
+VO_GEANT4_SW_DIR=/cvmfs/geant4.cern.ch/
+VO_ATLAS_SW_DIR=/cvmfs/atlas.cern.ch/repo/sw
+GLITE_LOCATION=/cvmfs/grid.cern.ch/centos7-wn-preview-v02/usr
+VO_CAMONT_SW_DIR=/cvmfs/generic.gridpp.ac.uk/camont
+VO_T2K_ORG_SW_DIR=/cvmfs/t2k.egi.eu
+CVMFS_singularity_opensciencegrid_org_REVISION=61652
+VO_LTWO_DEFAULT_SE=heplnx204.pp.rl.ac.uk
+GLOBUS_GSSAPI_FORCE_TLS=false
+GLIDEIN_LOCAL_TMP_DIR=/tmp/glide_ttcms032_ZjpSLm
+SITE_NAME=RAL-LCG2
+VO_GRIDPP_SW_DIR=/cvmfs/generic.gridpp.ac.uk/gridpp
+_CONDOR_JOB_IWD=/srv
+OSG_SINGULARITY_BIND_CVMFS=0
+_CONDOR_ANCESTOR_24917=24921:1557259164:3578857634
+VO_CEDAR_DEFAULT_SE=heplnx204.pp.rl.ac.uk
+VO_SUPERNEMO_VO_EU_EGEE_ORG_SW_DIR=/cvmfs/generic.gridpp.ac.uk
+CONDOR_PROCD_ADDRESS=/pool/condor/dir_64860/glide_TsHdha/log/procd_address
+VO_T2K_ORG_DEFAULT_SE=heplnx204.pp.rl.ac.uk
+GLOBUS_GSSAPI_SERVER_CIPHER_ORDER=true
+VO_CAMONT_DEFAULT_SE=heplnx204.pp.rl.ac.uk
+VO_DZERO_SW_DIR=/cvmfs/generic.gridpp.ac.uk
+_=/usr/bin/env
+---------environment--------
+
+
+All done
